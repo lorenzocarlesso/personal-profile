@@ -3,6 +3,9 @@ import App from './App.vue'
 
 Vue.config.productionTip = false
 
+require("./assets/main.scss")
+require("./assets/timeline.scss")
+
 new Vue({
   render: h => h(App),
 }).$mount('#app')

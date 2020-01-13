@@ -1,0 +1,23 @@
+// put here bulma customizations
+// $primary: blue;
+
+$primary: #8aae92;
+/*
+.is-link
+.is-info
+.is-success
+.is-warning
+.is-danger
+*/
+
+@import "~bulma/bulma";
+
+@media (max-width: 1024px) {
+	.desktop {
+		display: none;
+	}
+}
+
+html {
+    scroll-behavior: smooth;
+}
