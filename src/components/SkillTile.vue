@@ -9,18 +9,34 @@
       <div class="media-content">
         <div class="content">
           <p>
-            <strong>Java</strong>
-            <br />Descrizione livello di conoscenza
+            <strong>{{ title }}</strong>
+            <br />
+            {{ description }}
           </p>
         </div>
-        <progress class="progress" value="15" max="100">15%</progress>
+        <progress class="progress is-primary" :value="level" max="100">{{ level }}</progress>
       </div>
     </article>
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+  props: {
+    title: {
+      type: String,
+      required: true
+    },
+    description: {
+      type: String,
+      required: true
+    },
+    level: {
+      type: Number,
+      required: true
+    }
+  }
+};
 </script>
 
 <style>

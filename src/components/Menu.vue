@@ -1,15 +1,16 @@
 <template>
-  <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
+  <nav class="navbar is-primary is-fixed-bottom" role="navigation" aria-label="main navigation">
     <div class="container">
       <div class="navbar-brand">
         <a class="navbar-item" href="#home">Lorenzo Carlesso</a>
         <a
+          id="navbar-burger"
           role="button"
           class="navbar-burger burger"
           aria-label="menu"
           aria-expanded="false"
           data-target="siteNavbar"
-          @click="showNav = !showNav"
+          @click="openCloseNavbar"
           :class="{ 'is-active' : showNav }"
         >
           <span aria-hidden="true"></span>
@@ -19,11 +20,12 @@
       </div>
       <div id="siteNavbar" class="navbar-menu" :class="{ 'is-active' : showNav }">
         <div class="navbar-end">
-          <a class="navbar-item" href="#aboutMe">About Me</a>
-          <a class="navbar-item" href="#skills">Skills</a>
-          <a class="navbar-item" href="#experience">Experience</a>
-          <a class="navbar-item" href="#education">Education</a>
-          <a class="navbar-item" href="#news">News</a>
+          <a
+            v-for="barItem in barItems"
+            class="navbar-item"
+            :href="`#${barItem.anchor}`"
+            @click="closeNavbar"
+          >{{ barItem.title }}</a>
         </div>
       </div>
     </div>
@@ -34,8 +36,28 @@
 export default {
   data() {
     return {
-      showNav: false
+      showNav: false,
+      barItems: [
+        { title: "About Me", anchor: "aboutMe" },
+        { title: "Skills", anchor: "skills" },
+        { title: "News", anchor: "news" },
+        { title: "Experience", anchor: "experience" },
+        { title: "Education", anchor: "education" }
+      ]
     };
+  },
+  methods: {
+    // bulma not manage the burger button
+    openCloseNavbar() {
+      this.showNav = !this.showNav;
+    },
+    // mobile: fix to close the menu button. I doesn't work really well. The menu closes but when you try to reopen the menu you need to tap twice.
+    closeNavbar() {
+      var burger = document.getElementById("navbar-burger");
+      var menu = document.getElementById("siteNavbar");
+      burger.classList.remove("is-active");
+      menu.classList.remove("is-active");
+    }
   }
 };
 </script>

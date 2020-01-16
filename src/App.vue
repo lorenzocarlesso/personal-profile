@@ -4,9 +4,9 @@
     <Home />
     <AboutMe />
     <Skills />
+    <News />
     <Experience />
     <Education />
-    <News />
   </div>
 </template>
 
