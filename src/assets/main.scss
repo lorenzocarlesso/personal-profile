@@ -19,12 +19,6 @@ $primary: #8aae92;
     }
 }
 
-progress:after {
-	content: attr(value);
-	left: 100%;
-	position: relative;
-  }
-
 @import "~bulma/bulma";
 
 @media (max-width: 1024px) {

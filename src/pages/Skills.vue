@@ -1,33 +1,33 @@
 <template>
   <section id="skills" class="section">
-    <div class="container">
-      <h1 class="title has-text-centered">Skills</h1>
+    <h1 class="title has-text-centered">Skills</h1>
 
-      <h2 class="subtitle">WEB DEVELOPMENT SKILLS</h2>
-      <div class="columns is-desktop">
-        <div class="column">
-          <SkillTile :title="`${java.title}`" :level=0 :description="`${java.description}`" />
+    <div class="container">
+      <nav class="tabs is-centered">
+        <ul>
+          <li v-for="group in skillGroups" class="tab">
+            <a @click="openTab(group.title)">{{ group.title }}</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="container section">
+      <div
+        v-for="group in skillGroups"
+        :id="group.title"
+        :key="group.title"
+        class="content-tab"
+        style="display:none"
+      >
+        <div class="columns is-desktop">
+          <div v-for="skill in group.skills" class="column">
+            <SkillTile
+              :title="`${skill.title}`"
+              :level="`${skill.level}`"
+              :description="`${skill.description}`"
+            />
+          </div>
         </div>
-        <div class="column">
-          <SkillTile :title="`${scala.title}`" :level=0 :description="`${scala.description}`" />
-        </div>
-        <div class="column">
-          <SkillTile :title="`${javascript.title}`" :level="`${javascript.level}`" :description="`${javascript.description}`" />
-        </div>
-      </div>
-<!--
-      <h2 class="subtitle">WEB DESIGN SKILLS</h2>
-      <div class="columns is-desktop">
-        <div class="column">
-          <SkillTile />
-        </div>
-        <div class="column">
-          <SkillTile />
-        </div>
-        <div class="column">
-          <SkillTile />
-        </div>
-        -->
       </div>
     </div>
   </section>
@@ -42,28 +42,75 @@ export default {
   },
   data() {
     return {
-      java: {
-        title: "Java",
-        level: 70,
-        description:
-          "I've used Java for 15 years. I have a long experience about java web project. I started with J2EE 1.4."
-      },
-      scala: {
-        title: "Scala",
-        level: 40,
-        description:
-          "I've started to use Scala four years ago. I have not deep experience on pure Scala project because I use it to support java. I'm studying it to improve my confidence."
-      },
-      javascript: {
-        title: "Javascript",
-        level: 50,
-        description:
-          "Like fullstack developer I've used Javascript to build dynamic feauters on client browser. I used Javascript with different libraries: Jquery, underscore, highCharts."
-      }
+      skillGroups: [
+        {
+          title: "LANGUAGES",
+          skills: [
+            {
+              title: "Java",
+              level: 70,
+              description:
+                "I've used Java for 15 years. I started with J2EE 1.4. "
+            },
+            {
+              title: "Scala",
+              level: 40,
+              description:
+                "I've started to use Scala four years ago. I'm studying it to improve my confidence with it."
+            },
+            {
+              title: "Javascript",
+              level: 50,
+              description:
+                "I am not a Javascript ninja. I've written Javascript code. I am studying ES6 to upgrade my confidence and level."
+            }
+          ]
+        },
+        {
+          title: "WEB",
+          skills: [
+            {
+              title: "HTML",
+              level: 60,
+              description: "It's impposbile know all, but I know how use it."
+            },
+            {
+              title: "CSS",
+              level: 60,
+              description:
+                "Same knowledge like HTML. In my last time I've used Bulma CSS framework."
+            }
+          ]
+        }
+      ]
     };
+  },
+  methods: {
+    // tab click manage
+    openTab(tabName) {
+      var i, x, tablinks;
+      x = document.getElementsByClassName("content-tab");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tab");
+      for (i = 0; i < x.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" is-active", "");
+      }
+      document.getElementById(tabName).style.display = "block";
+      this.currentTarget.className += " is-active";
+    }
   }
+
+  /*
+  groups:
+  - languages
+  - web
+  - methodologies: Agile, SCRUM,
+ */
 };
 </script>
 
 <style>
 </style>
+
