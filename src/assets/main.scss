@@ -31,3 +31,11 @@ html {
     scroll-behavior: smooth;
 }
 
+svg.linkedin-transition {
+    transition: color 0.5s ease-out;
+    color: #a7bfe6;
+    &:hover {
+        color: #3273dc;
+    }
+  }
+

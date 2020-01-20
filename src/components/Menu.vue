@@ -3,6 +3,7 @@
     <div class="container">
       <div class="navbar-brand">
         <a class="navbar-item" href="#home">Lorenzo Carlesso</a>
+
         <a
           id="navbar-burger"
           role="button"
@@ -42,7 +43,8 @@ export default {
         { title: "Skills", anchor: "skills" },
         { title: "News", anchor: "news" },
         { title: "Experience", anchor: "experience" },
-        { title: "Education", anchor: "education" }
+        { title: "Education", anchor: "education" },
+        { title: "Info", anchor: "info" }
       ]
     };
   },

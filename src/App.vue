@@ -7,6 +7,7 @@
     <News />
     <Experience />
     <Education />
+    <Info />
   </div>
 </template>
 
@@ -18,6 +19,7 @@ import Skills from "./pages/Skills.vue";
 import Experience from "./pages/Experience.vue";
 import Education from "./pages/Education.vue";
 import News from "./pages/News.vue";
+import Info from "./pages/Info.vue";
 
 export default {
   name: "app",
@@ -28,7 +30,8 @@ export default {
     Skills,
     Experience,
     Education,
-    News
+    News,
+    Info
   }
 };
 </script>

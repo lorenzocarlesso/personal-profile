@@ -9,14 +9,19 @@
             {{ description }}
           </p>
         </div>
-        <progress class="progress is-primary" :value="level" max="100">{{ level }}</progress>
+        <!-- <ProgressBar :level="level" />  -->
       </div>
     </article>
   </div>
 </template>
 
 <script>
+import ProgressBar from "../components/ProgressBar.vue";
+
 export default {
+  components: {
+    ProgressBar
+  },
   props: {
     title: {
       type: String,

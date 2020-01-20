@@ -16,14 +16,18 @@
                   <h6 class="subtitle is-italic has-text-weight-normal">{{ profession }}</h6>
                   <p>{{ shortDescription }}</p>
                   <p>
-                    <b>City:</b>
-                    {{ city }}
+                    I currently live in
+                    <b>{{ city }} ({{ country }})</b>
                   </p>
                   <p>
-                    <b>Country:</b>
-                    {{ country }}
+                    <a href="http://linkedin.com/in/lorenzo-carlesso-85441a3b" target="_blank">
+                      <font-awesome-icon
+                        class="linkedin-transition"
+                        :icon="['fab', 'linkedin']"
+                        size="2x"
+                      ></font-awesome-icon>
+                    </a>
                   </p>
-                  <p>Linkedin ref | ref2 | ref3</p>
                 </div>
               </div>
             </article>
@@ -53,7 +57,7 @@ export default {
       city: "Turin",
       country: "Italy",
       shortDescription:
-        "Specialized in web project. I am open to new opportunities.",
+        "Specialized in web project. I am open to new job opportunities.",
       quotes: [
         {
           mention: "Festìna lente",

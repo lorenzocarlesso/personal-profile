@@ -50,7 +50,7 @@ export default {
               title: "Java",
               level: 70,
               description:
-                "I've used Java for 15 years. I started with J2EE 1.4. "
+                "I've used Java for 15 years. I started with J2EE 1.4."
             },
             {
               title: "Scala",
@@ -62,7 +62,7 @@ export default {
               title: "Javascript",
               level: 50,
               description:
-                "I am not a Javascript ninja. I've written Javascript code. I am studying ES6 to upgrade my confidence and level."
+                "I've written Javascript code. but I am not a Javascript ninja. I am studying ES6 to upgrade my confidence and level."
             }
           ]
         },
@@ -81,6 +81,31 @@ export default {
                 "Same knowledge like HTML. In my last time I've used Bulma CSS framework."
             }
           ]
+        },
+        {
+          title: "SOFTWARE ENGINERING",
+          skills: [
+            {
+              title: "Oracle",
+              level: 70,
+              description:
+                "I worked many years with Oracle. I am not a DBA but I know how write complex SQL query and some simple PL/SQL. I know how design tables."
+            },
+            {
+              title: "MySQL",
+              level: 80,
+              description: ""
+            },
+            {
+              title: "Apache Derby - H2",
+              level: 60,
+              description: ""
+            }
+          ]
+        },
+        {
+          title: "SOFT SKILLS",
+          skills: [{}]
         }
       ]
     };
