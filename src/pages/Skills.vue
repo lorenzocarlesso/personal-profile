@@ -5,7 +5,12 @@
     <div class="container">
       <nav class="tabs is-centered">
         <ul>
-          <li v-for="group in skillGroups" class="tab">
+          <li
+            v-for="group in skillGroups"
+            :id="`${group.title}-tab`"
+            :key="`${group.title}-tab`"
+            :class="[group.isActive ? ' is-active' : '', 'tab']"
+          >
             <a @click="openTab(group.title)">{{ group.title }}</a>
           </li>
         </ul>
@@ -16,14 +21,13 @@
         v-for="group in skillGroups"
         :id="group.title"
         :key="group.title"
-        class="content-tab"
-        style="display:none"
+        :class="[group.isActive ? 'is-active' : 'is-hidden', 'content-tab']"
       >
         <div class="columns is-desktop">
           <div v-for="skill in group.skills" class="column">
             <SkillTile
               :title="`${skill.title}`"
-              :level="`${skill.level}`"
+              :level="skill.level"
               :description="`${skill.description}`"
             />
           </div>
@@ -45,6 +49,7 @@ export default {
       skillGroups: [
         {
           title: "LANGUAGES",
+          isActive: true,
           skills: [
             {
               title: "Java",
@@ -113,17 +118,24 @@ export default {
   methods: {
     // tab click manage
     openTab(tabName) {
-      var i, x, tablinks;
-      x = document.getElementsByClassName("content-tab");
-      for (i = 0; i < x.length; i++) {
-        x[i].style.display = "none";
+      var i, tabContents, tabLinks;
+      tabLinks = document.getElementsByClassName("tab");
+      tabContents = document.getElementsByClassName("content-tab");
+      for (i = 0; i < tabContents.length; i++) {
+        tabLinks[i].className = tabLinks[i].className.replace(" is-active", "");
+        tabContents[i].className = tabContents[i].className.replace(
+          "is-active",
+          "is-hidden"
+        );
       }
-      tablinks = document.getElementsByClassName("tab");
-      for (i = 0; i < x.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" is-active", "");
-      }
-      document.getElementById(tabName).style.display = "block";
-      this.currentTarget.className += " is-active";
+
+      var selectedLinkTab = document.getElementById(tabName + "-tab");
+      selectedLinkTab.className += " is-active";
+      var selectedContentTab = document.getElementById(tabName);
+      selectedContentTab.className = selectedContentTab.className.replace(
+        "is-hidden",
+        "is-active"
+      );
     }
   }
 

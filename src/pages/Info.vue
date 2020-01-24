@@ -23,7 +23,7 @@
         </div>
         <div class="column">
           <h6 class="title is-6">Warning</h6>
-          <p>I forgot: I am not a web deisgner but I've tried to expose my contents in a gradevole way.</p>
+          <p>I forgot: I am not a web deisgner but I've tried to expose my contents in a pleasent way.</p>
           <br />
           <h6 class="title is-6">Technologies</h6>
           <p>

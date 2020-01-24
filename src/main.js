@@ -3,6 +3,7 @@ import App from './App.vue'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faInfoCircle } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+import BaseModal from './components/BaseModal.vue'
 
 import {
   faLinkedin,
@@ -12,6 +13,7 @@ import {
 library.add(faInfoCircle, faHtml5, faLinkedin)
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
+Vue.component('BaseModal', BaseModal)
 
 Vue.config.productionTip = false
 

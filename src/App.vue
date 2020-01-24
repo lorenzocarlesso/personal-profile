@@ -17,7 +17,7 @@ import Home from "./pages/Home.vue";
 import AboutMe from "./pages/AboutMe.vue";
 import Skills from "./pages/Skills.vue";
 import Experience from "./pages/Experience.vue";
-import Education from "./pages/Education.vue";
+import Education from "./pages/EducationTwo.vue";
 import News from "./pages/News.vue";
 import Info from "./pages/Info.vue";
 
