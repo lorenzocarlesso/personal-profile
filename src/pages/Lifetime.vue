@@ -1,10 +1,10 @@
 <template>
-  <section id="education" class="section">
+  <section id="lifetime" class="section">
     <div class="container">
       <h1 class="title has-text-centered">My Lifetime in a Timeline</h1>
       <div class="timeline is-centered">
         <header class="timeline-header">
-          <span class="tag is-medium is-primary">End</span>
+          <span class="tag is-medium is-primary">2020 ...</span>
         </header>
         <div class="timeline-item">
           <div class="timeline-marker is-primary"></div>

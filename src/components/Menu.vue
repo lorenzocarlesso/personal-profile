@@ -42,8 +42,7 @@ export default {
         { title: "About Me", anchor: "aboutMe" },
         { title: "Skills", anchor: "skills" },
         { title: "News", anchor: "news" },
-        { title: "Experience", anchor: "experience" },
-        { title: "Education", anchor: "education" },
+        { title: "Lifetime", anchor: "lifetime" },
         { title: "Info", anchor: "info" }
       ]
     };

@@ -6,6 +6,7 @@
         <div class="box">
           <div class="content has-text-centered">
             <h3>{{message}}</h3>
+            <ExperienceBox />
             <p class="control"></p>
             <span>&nbsp;</span>
           </div>
@@ -18,7 +19,12 @@
 </template>
 
 <script>
+import ExperienceBox from "../components/ExperienceBox.vue";
+
 export default {
+  components: {
+    ExperienceBox
+  },
   data() {
     return {
       isActive: false
