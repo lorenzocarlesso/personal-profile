@@ -17,23 +17,20 @@
           <p>My hope is give a non standard perspective of me.</p>
           <p>Today, we use standard CV and LinkedIn profile to show us.</p>
           <p>I believe a friendly profile could be useful to break formal walls.</p>
-        </div>
-        <div class="column">
+          <br />
           <h6 class="title is-6">Future</h6>
           <p>La mia intenzione è far evolvere questo sito in qualità e contenuti, perciò siccome questo sito parla di me, mi sento obbligato a trovare tempo ed opportunità per migliorare me stesso.</p>
-          <br />
+        </div>
+        <div class="column">
           <h6 class="title is-6">Warning</h6>
           <p>I forgot: I am not a web deisgner but I've tried to expose my contents in a gradevole way.</p>
+          <br />
+          <h6 class="title is-6">Technologies</h6>
+          <p>
+            This site is built with
+            <font-awesome-icon :icon="['fab', 'html5']" size="2x"></font-awesome-icon>Vue.js & Bulma
+          </p>
         </div>
-      </div>
-
-      <h4 class="title is-4">Technologies</h4>
-      <div class="columns is-mobile is-centered is-vcentered">
-        <div class="column">
-          <font-awesome-icon :icon="['fab', 'html5']" size="2x"></font-awesome-icon>
-        </div>
-        <div class="column">Vue.js</div>
-        <div class="column">Bulma</div>
       </div>
     </div>
   </section>
