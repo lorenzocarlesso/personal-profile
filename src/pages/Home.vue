@@ -34,13 +34,13 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="section is-medium">
-      <div class="columns has-text-centered">
-        <div v-for="quote in quotes" class="column">
-          <div class="container">
-            <h2 class="subtitle is-italic">" {{ quote.mention }} "</h2>
-            <h6 class>{{ quote.author }}</h6>
+      <div class="section is-medium">
+        <div class="columns has-text-centered">
+          <div v-for="quote in quotes" class="column">
+            <div class="container">
+              <h2 class="subtitle is-italic">" {{ quote.mention }} "</h2>
+              <h6 class>{{ quote.author }}</h6>
+            </div>
           </div>
         </div>
       </div>

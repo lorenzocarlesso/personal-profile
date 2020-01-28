@@ -3,27 +3,20 @@
     <div class="modal" v-bind:class="{'is-active':isActive}">
       <div class="modal-background"></div>
       <div class="modal-content">
-        <div class="box">
-          <div class="content has-text-centered">
-            <h3>{{message}}</h3>
-            <ExperienceBox />
-            <p class="control"></p>
-            <span>&nbsp;</span>
-          </div>
-        </div>
+        <BaseBox :content="content" />
       </div>
       <button @click="close" class="modal-close"></button>
     </div>
-    <button @click="launch" class="button is-primary">{{ title }}</button>
+    <button @click="launch" class="button is-primary">{{ button }}</button>
   </div>
 </template>
 
 <script>
-import ExperienceBox from "../components/ExperienceBox.vue";
+import BaseBox from "../components/BaseBox.vue";
 
 export default {
   components: {
-    ExperienceBox
+    BaseBox
   },
   data() {
     return {
@@ -31,8 +24,8 @@ export default {
     };
   },
   props: {
-    title: String,
-    message: String
+    button: String,
+    content: Object
   },
   methods: {
     launch() {
