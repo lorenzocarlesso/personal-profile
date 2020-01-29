@@ -4,12 +4,12 @@
       <div class="media-content">
         <div class="content">
           <p>
-            <strong>{{ title }}</strong>
+            <strong>{{ skill.title }}</strong>
             <br />
-            {{ description }}
+            {{ skill.description }}
           </p>
         </div>
-        <!-- <ProgressBar :level="level" />  -->
+        <!-- <ProgressBar :level="skill.level" />  -->
       </div>
     </article>
   </div>
@@ -23,17 +23,19 @@ export default {
     ProgressBar
   },
   props: {
-    title: {
-      type: String,
-      required: true
-    },
-    description: {
-      type: String,
-      required: true
-    },
-    level: {
-      type: Number,
-      required: true
+    skill: {
+      title: {
+        type: String,
+        required: true
+      },
+      description: {
+        type: String,
+        required: true
+      },
+      level: {
+        type: Number,
+        required: true
+      }
     }
   }
 };

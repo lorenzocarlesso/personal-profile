@@ -57,7 +57,7 @@ export default {
       city: "Turin",
       country: "Italy",
       shortDescription:
-        "Specialized in web project. I am open to new job opportunities.",
+        "Specialized in web projects. I am open to new job opportunities.",
       quotes: [
         {
           mention: "Festìna lente",

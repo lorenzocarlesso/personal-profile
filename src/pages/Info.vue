@@ -25,21 +25,21 @@
           <h6 class="title is-6">Warning</h6>
           <p>I forgot: I am not a web deisgner but I've tried to expose my contents in a pleasent way.</p>
           <br />
-          <h6 class="title is-6">Technologies</h6>
+          <h6 class="title is-6">Site built with</h6>
           <p>
-            This site is built with
-            <font-awesome-icon :icon="['fab', 'html5']" size="2x"></font-awesome-icon>Vue.js &
-            <a class="navbar-item" href="https://bulma.io">
+            <a id="logo" href="https://vuejs.org/">
+              <img src="../assets/logo.png" alt="vue logo" width="80" height="80" />
+            </a>
+            <a href="https://html.spec.whatwg.org/multipage/">
+              <img src="../assets/HTML5_128.png" alt="HTML5 spec whatwg" width="80" height="80" />
+            </a>
+            <a href="https://bulma.io">
               <img
                 src="https://bulma.io/images/bulma-logo.png"
                 alt="Bulma: Free, open source, and modern CSS framework based on Flexbox"
-                width="112"
+                width="128"
                 height="28"
               />
-            </a>
-            <a id="logo" href="/">
-              <img src="/images/logo.png" alt="vue logo" />
-              <span>Vue.js</span>
             </a>
           </p>
         </div>

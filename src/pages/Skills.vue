@@ -23,13 +23,13 @@
         :key="group.title"
         :class="[group.isActive ? 'is-active' : 'is-hidden', 'content-tab']"
       >
-        <div class="columns is-desktop">
-          <div v-for="skill in group.skills" class="column">
-            <SkillTile
-              :title="`${skill.title}`"
-              :level="skill.level"
-              :description="`${skill.description}`"
-            />
+        <div class="columns is-multiline">
+          <div
+            v-for="(skill, index) in group.skills"
+            :key="`${group.title}_${index}`"
+            class="column is-one-quarter"
+          >
+            <SkillTile :skill="skill" />
           </div>
         </div>
       </div>
@@ -48,18 +48,18 @@ export default {
     return {
       skillGroups: [
         {
-          title: "LANGUAGES",
+          title: "TECHNOLOGIES",
           isActive: true,
           skills: [
             {
               title: "Java",
-              level: 70,
+              level: 50,
               description:
                 "I've used Java for 15 years. I started with J2EE 1.4."
             },
             {
               title: "Scala",
-              level: 40,
+              level: 50,
               description:
                 "I've started to use Scala four years ago. I'm studying it to improve my confidence with it."
             },
@@ -68,22 +68,22 @@ export default {
               level: 50,
               description:
                 "I've written Javascript code. but I am not a Javascript ninja. I am studying ES6 to upgrade my confidence and level."
-            }
-          ]
-        },
-        {
-          title: "WEB",
-          skills: [
-            {
-              title: "HTML",
-              level: 60,
-              description: "It's impposbile know all, but I know how use it."
             },
             {
-              title: "CSS",
-              level: 60,
+              title: "Web Frameworks",
+              level: 50,
+              description: "I've started to study Vue. "
+            },
+            {
+              title: "HTML5",
+              level: 50,
+              description: "It's imposbile know all, but I know how use it."
+            },
+            {
+              title: "CSS3",
+              level: 50,
               description:
-                "Same knowledge like HTML. In my last time I've used Bulma CSS framework."
+                "Same knowledge like HTML. In my last experience I've used Bulma CSS framework."
             }
           ]
         },
@@ -91,26 +91,86 @@ export default {
           title: "SOFTWARE ENGINERING",
           skills: [
             {
-              title: "Oracle",
-              level: 70,
-              description:
-                "I worked many years with Oracle. I am not a DBA but I know how write complex SQL query and some simple PL/SQL. I know how design tables."
-            },
-            {
-              title: "MySQL",
-              level: 80,
+              title: "Computer programming and coding",
+              level: 50,
               description: ""
             },
             {
-              title: "Apache Derby - H2",
-              level: 60,
+              title: "Software development",
+              level: 50,
+              description: ""
+            },
+            {
+              title: "Object-oriented design (OOD)",
+              level: 50,
+              description: ""
+            },
+            {
+              title: "Software testing and debugging",
+              level: 50,
+              description: ""
+            },
+            {
+              title: "Problem solving and logical thinking",
+              level: 50,
               description: ""
             }
           ]
         },
         {
           title: "SOFT SKILLS",
-          skills: [{}]
+          skills: [
+            {
+              title: "Communication",
+              level: 50,
+              description: ""
+            },
+            {
+              title: "Teamwork",
+              level: 50,
+              description: ""
+            },
+            {
+              title: "Adaptability",
+              level: 50,
+              description: ""
+            },
+            {
+              title: "Problem-Solving",
+              level: 50,
+              description: ""
+            },
+            {
+              title: "Creativity",
+              level: 50,
+              description: ""
+            },
+            {
+              title: "Work Ethic",
+              level: 50,
+              description: ""
+            },
+            {
+              title: "Interpersonal Skills",
+              level: 50,
+              description: ""
+            },
+            {
+              title: "Time Management",
+              level: 50,
+              description: ""
+            },
+            {
+              title: "Leadership",
+              level: 50,
+              description: ""
+            },
+            {
+              title: "Attention to Detail",
+              level: 50,
+              description: ""
+            }
+          ]
         }
       ]
     };

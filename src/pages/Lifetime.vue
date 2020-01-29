@@ -3,77 +3,48 @@
     <div class="container">
       <h1 class="title has-text-centered">My Lifetime in a Timeline</h1>
       <div class="timeline is-centered">
-        <header class="timeline-header">
-          <span class="tag is-medium is-primary">...</span>
-        </header>
-        <div class="timeline-item">
-          <div class="timeline-marker is-primary"></div>
-          <div class="timeline-content">
-            <p class="heading">{{ xeffe.head }}</p>
-            <p>
-              <BaseModal :button="xeffe.modal.button" :content="xeffe.modal.content" />
-            </p>
-          </div>
-        </div>
-        <div class="timeline-item">
-          <div class="timeline-marker is-primary"></div>
-          <div class="timeline-content">
-            <p class="heading">{{ synthesis.head }}</p>
-            <p>
-              <BaseModal :button="synthesis.modal.button" :content="synthesis.modal.content" />
-            </p>
-          </div>
-        </div>
-        <div class="timeline-item">
-          <div class="timeline-marker is-primary"></div>
-          <div class="timeline-content">
-            <p class="heading">2010</p>
-            <p>My second daughter is born</p>
-          </div>
-        </div>
-        <div class="timeline-item">
-          <div class="timeline-marker is-primary"></div>
-          <div class="timeline-content">
-            <p class="heading">2007</p>
-            <p>My first daughter is born</p>
-          </div>
-        </div>
-        <header class="timeline-header">
-          <span class="tag is-primary">2000</span>
-        </header>
-        <div class="timeline-item">
-          <div class="timeline-marker is-icon">
-            <i class="fa fa-plus"></i>
-          </div>
-          <div class="timeline-content">
-            <p class="heading">{{ highSchool.head }}</p>
-            <p>
-              <BaseModal :button="highSchool.modal.button" :content="highSchool.modal.content" />
-            </p>
-          </div>
-        </div>
-        <div class="timeline-item">
-          <div class="timeline-marker is-primary"></div>
-          <div class="timeline-content">
-            <p class="heading">August 1977</p>
-            <p>When I was born</p>
-          </div>
-        </div>
-        <header class="timeline-header">
-          <span class="tag is-medium is-primary">1970</span>
-        </header>
+        <BaseTimelineHeader :content="headerEnd" />
+        <BaseTimelineItem :content="pauseForMyself" />
+        <BaseTimelineItem :content="xeffe" />
+        <BaseTimelineItem :content="secondDaughter" />
+        <BaseTimelineItem :content="synthesis" />
+        <BaseTimelineItem :content="firstDaughter" />
+        <BaseTimelineItem :content="meetAlice" />
+        <BaseTimelineItem :content="datasoftRe" />
+        <BaseTimelineHeader :content="twoThousand" />
+        <BaseTimelineItem :content="allStamp" />
+        <BaseTimelineItem :content="highSchool" />
+        <BaseTimelineItem :content="playDrum" />
+        <BaseTimelineItem :content="playFootball" />
+        <BaseTimelineItem :content="born" />
+        <BaseTimelineHeader :content="headerStart" />
       </div>
     </div>
   </section>
 </template>
 
 <script>
+import BaseTimelineHeader from "../components/BaseTimelineHeader.vue";
+import BaseTimelineItem from "../components/BaseTimelineItem.vue";
+
 export default {
-  components: {},
+  components: { BaseTimelineHeader, BaseTimelineItem },
   data() {
     return {
+      pauseForMyself: {
+        head: "September 2019",
+        icon: ["fa", "pause-circle"],
+        modal: {
+          button: "Myself",
+          content: {
+            title: "Myself",
+            subtitle: "Manager of Training for Myself"
+          }
+        }
+      },
       xeffe: {
         head: "September 2013",
+        icon: ["fa", "building"],
         modal: {
           button: "Xeffe",
           content: {
@@ -84,6 +55,7 @@ export default {
       },
       synthesis: {
         head: "April 2008",
+        icon: ["fa", "building"],
         modal: {
           button: "Synthesis",
           content: {
@@ -92,8 +64,46 @@ export default {
           }
         }
       },
+      datasoftRe: {
+        head: "January 2004",
+        icon: ["fa", "building"],
+        modal: {
+          button: "Datasoft R.E.",
+          content: {
+            title: "Datasoft R.E. (Turin)",
+            subtitle: "Java Junior Developer"
+          }
+        }
+      },
+      allStamp: {
+        head: "December 1997",
+        icon: ["fa", "building"],
+        modal: {
+          button: "All Stamp",
+          content: {
+            title: "All Stamp s.r.l. (Turin)",
+            subtitle: "Technical Designer"
+          }
+        }
+      },
+      secondDaughter: {
+        head: "2010",
+        icon: ["fa", "baby"],
+        text: "My second daughter is born"
+      },
+      firstDaughter: {
+        head: "2007",
+        icon: ["fa", "baby"],
+        text: "My first daughter is born"
+      },
+      meetAlice: {
+        head: "May 2005",
+        icon: ["fa", "heart"],
+        text: "I met my wife Alice"
+      },
       highSchool: {
         head: "June 1997",
+        icon: ["fa", "school"],
         modal: {
           button: "High School",
           content: {
@@ -102,6 +112,32 @@ export default {
             messages: ["bla 1", "bla 2"]
           }
         }
+      },
+      playDrum: {
+        head: "1992",
+        icon: ["fa", "drum"],
+        text: "I started to play drum"
+      },
+      playFootball: {
+        head: "1986",
+        icon: ["fa", "futbol"],
+        text: "I started to play football"
+      },
+      born: {
+        head: "1977",
+        icon: ["fa", "baby"],
+        text: "When I was born"
+      },
+      headerEnd: {
+        text: "...",
+        isMedium: true
+      },
+      twoThousand: {
+        text: "2000"
+      },
+      headerStart: {
+        text: "1970",
+        isMedium: true
       }
     };
   }
