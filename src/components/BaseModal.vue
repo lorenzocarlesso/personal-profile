@@ -12,12 +12,8 @@
 </template>
 
 <script>
-import BaseBox from "../components/BaseBox.vue";
-
 export default {
-  components: {
-    BaseBox
-  },
+  components: {},
   data() {
     return {
       isActive: false

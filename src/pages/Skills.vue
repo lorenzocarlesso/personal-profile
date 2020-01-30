@@ -27,9 +27,9 @@
           <div
             v-for="(skill, index) in group.skills"
             :key="`${group.title}_${index}`"
-            class="column is-one-quarter"
+            class="column is-one-third"
           >
-            <SkillTile :skill="skill" />
+            <SkillTile :content="skill" />
           </div>
         </div>
       </div>
@@ -53,37 +53,35 @@ export default {
           skills: [
             {
               title: "Java",
-              level: 50,
-              description:
+              messages: [
                 "I've used Java for 15 years. I started with J2EE 1.4."
+              ]
             },
             {
               title: "Scala",
-              level: 50,
-              description:
+              messages: [
                 "I've started to use Scala four years ago. I'm studying it to improve my confidence with it."
+              ]
             },
             {
               title: "Javascript",
-              level: 50,
-              description:
+              messages: [
                 "I've written Javascript code. but I am not a Javascript ninja. I am studying ES6 to upgrade my confidence and level."
+              ]
             },
             {
               title: "Web Frameworks",
-              level: 50,
-              description: "I've started to study Vue. "
+              messages: ["I've started to study Vue.js."]
             },
             {
               title: "HTML5",
-              level: 50,
-              description: "It's imposbile know all, but I know how use it."
+              messages: ["It's imposbile know all, but I know how use it."]
             },
             {
               title: "CSS3",
-              level: 50,
-              description:
+              messages: [
                 "Same knowledge like HTML. In my last experience I've used Bulma CSS framework."
+              ]
             }
           ]
         },
@@ -92,28 +90,23 @@ export default {
           skills: [
             {
               title: "Computer programming and coding",
-              level: 50,
-              description: ""
+              messages: [""]
             },
             {
               title: "Software development",
-              level: 50,
-              description: ""
+              messages: [""]
             },
             {
               title: "Object-oriented design (OOD)",
-              level: 50,
-              description: ""
+              messages: [""]
             },
             {
               title: "Software testing and debugging",
-              level: 50,
-              description: ""
+              messages: [""]
             },
             {
               title: "Problem solving and logical thinking",
-              level: 50,
-              description: ""
+              messages: [""]
             }
           ]
         },
@@ -122,53 +115,43 @@ export default {
           skills: [
             {
               title: "Communication",
-              level: 50,
-              description: ""
+              messages: [""]
             },
             {
               title: "Teamwork",
-              level: 50,
-              description: ""
+              messages: [""]
             },
             {
               title: "Adaptability",
-              level: 50,
-              description: ""
+              messages: [""]
             },
             {
               title: "Problem-Solving",
-              level: 50,
-              description: ""
+              messages: [""]
             },
             {
               title: "Creativity",
-              level: 50,
-              description: ""
+              messages: [""]
             },
             {
               title: "Work Ethic",
-              level: 50,
-              description: ""
+              messages: [""]
             },
             {
               title: "Interpersonal Skills",
-              level: 50,
-              description: ""
+              messages: [""]
             },
             {
               title: "Time Management",
-              level: 50,
-              description: ""
+              messages: [""]
             },
             {
               title: "Leadership",
-              level: 50,
-              description: ""
+              messages: [""]
             },
             {
               title: "Attention to Detail",
-              level: 50,
-              description: ""
+              messages: [""]
             }
           ]
         }

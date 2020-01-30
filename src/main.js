@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
 import BaseModal from './components/BaseModal.vue'
+import BaseBox from './components/BaseBox.vue'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faInfoCircle, faSchool, faBaby, faBuilding, faDrum, faFutbol, faHeart, faPauseCircle } from '@fortawesome/free-solid-svg-icons'
@@ -15,6 +16,7 @@ library.add(faInfoCircle, faSchool, faBaby, faBuilding, faDrum, faFutbol, faHear
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 Vue.component('BaseModal', BaseModal)
+Vue.component('BaseBox', BaseBox)
 
 Vue.config.productionTip = false
 
