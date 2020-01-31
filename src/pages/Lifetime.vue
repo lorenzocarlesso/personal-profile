@@ -79,6 +79,23 @@ export default {
           }
         }
       },
+      datasoftRe: {
+        head: "2001",
+        icon: ["fa", "school"],
+        modal: {
+          button: "Dynamic sites",
+          content: {
+            title: "Course for building dynamic sites",
+            subtitle: "ASP - PHP - JAVA - Microsoft Access",
+            messages: [
+              "Passati un po' di anni e con l'inizio della diffusione dei primi modem nelle case, iniziai a riscoprire interesse per la programmazione",
+              "Iniziai a fare qualche pagina HTML (anche se non è programmare) così per diletto.",
+              "Dopo poco lasciai il lavoro per fare un corso di un anno su ASP, PHP e Java. Agli inizi del 2000 si parlava di siti dinamici, non ancora di web application.",
+              "Perciò ottenni la qualifica come programmatore di siti dinamici (i primi fullstack developer)."
+            ]
+          }
+        }
+      },
       allStamp: {
         head: "December 1997",
         icon: ["fa", "building"],
@@ -86,7 +103,11 @@ export default {
           button: "All Stamp",
           content: {
             title: "All Stamp s.r.l. (Turin)",
-            subtitle: "Technical Designer"
+            subtitle: "Technical Designer",
+            messages: [
+              "La programmazione mi aveva affascinato ma non convinto così tanto da continuare nello studio o nel lavoro.",
+              "Così finita la scuola iniziai subito a lavorare come disegnatore tecnico meccanico."
+            ]
           }
         }
       },

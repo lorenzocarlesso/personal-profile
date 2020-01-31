@@ -1,6 +1,6 @@
 <template>
   <div class="timeline-item">
-    <div class="timeline-marker is-icon is-primary">
+    <div class="timeline-marker is-icon is-secondary">
       <font-awesome-icon :icon="content.icon" size="2x"></font-awesome-icon>
     </div>
     <div class="timeline-content">
