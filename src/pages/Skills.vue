@@ -71,7 +71,10 @@ export default {
             },
             {
               title: "Web Frameworks",
-              messages: ["I've started to study Vue.js."]
+              messages: [
+                "I've started to study Vue.js.",
+                "I used Play Framework, Servlet with JSP/JSTL, Struts."
+              ]
             },
             {
               title: "HTML5",
@@ -90,23 +93,25 @@ export default {
           skills: [
             {
               title: "Computer programming and coding",
-              messages: [""]
+              messages: [
+                "Ho utilizzato linguaggi di vario tipo, partendo da PHP, ASP per arrivare a Javascript, Java e Scala.",
+                "Non sono rimasto fermo ad un solo paradigma di programmazione, anche se quello ad oggetti è quello su cui ho lavorato di più."
+              ]
             },
             {
-              title: "Software development",
-              messages: [""]
+              title: "Software development process",
+              messages: [
+                "Ho iniziato a lavora con il tipico processo Waterfall.",
+                "In seguito ho avuto modo di fare esperienze con la  metodologia di sviluppo Agile nelle forme di Kanban e Scrum."
+              ]
             },
             {
-              title: "Object-oriented design (OOD)",
-              messages: [""]
-            },
-            {
-              title: "Software testing and debugging",
-              messages: [""]
-            },
-            {
-              title: "Problem solving and logical thinking",
-              messages: [""]
+              title: "Software design",
+              messages: [
+                "Ho utilizzato il modello MVC come principale modello di riferimento architetturale.",
+                "Di fronte alle problematiche d'implementazione cerco di sfruttare i design pattern ed applicare i design concepts di modularizzazione, astrazione e maintainability.",
+                "Attualmente sto scoprendo le potenzialità dei sistemi reattivi legati ad architetture a microservizi."
+              ]
             }
           ]
         },
@@ -115,43 +120,67 @@ export default {
           skills: [
             {
               title: "Communication",
-              messages: [""]
+              messages: [
+                "Provo piacere nel condividere e ascoltare le persone che collaborano con me.",
+                "Cerco di essere sintetico ed esplicito nella comunicazione per non dare spazio a incomprensioni."
+              ]
             },
             {
               title: "Teamwork",
-              messages: [""]
+              messages: [
+                "Non sono fatto per lavorare da solo. Ho bisogno di condividere il bene ed il male del lavoro assumendo un atteggiamento propositivo, finalizzato al successo delle attività.",
+                "Ho lavorato quasi sempre con team di poche persone."
+              ]
             },
             {
               title: "Adaptability",
-              messages: [""]
+              messages: [
+                "Le mie esperienze lavorative erano spesso disorganizzate e di conseguenza era importante gestire le attività ed il tempo a disposizione",
+                "Lavorando in aziende medio piccole era quasi la normalità dover assumere ruoli non sempre di solo sviluppatore."
+              ]
             },
             {
               title: "Problem-Solving",
-              messages: [""]
+              messages: [
+                "Credo che la soluzione migliore per affrontare e risolvere un problema sia la condivisione. Qeusto offre l'opportunità di avere più spunti per trovare la soluzione efficace.",
+                "Cerco di adottare un metodo universale per aumentare la propria indipendenza di fronte ai problemi: continuare a studiare. Qeusto aiuta a contenere il lato oscuro di ognuno di noi: l'ignoranza. "
+              ]
             },
             {
               title: "Creativity",
-              messages: [""]
+              messages: [
+                "Non sono particolarmente creativo a livello artistico ma cerco di esserlo nel ragionamento e nell'osservazione per trovare sempre uno schema logico alle situazioni che devo elaborare.",
+                "Faccio uso di droghe per avere spunti creativi da altre dimensioni. Scherzo. Questo succedeva per alcuni musicisti negli anni sessanta...a no, succede ancora oggi."
+              ]
             },
             {
               title: "Work Ethic",
-              messages: [""]
+              messages: [
+                "Cerco di mantenere sempre un atteggiamento professionale in ogni ambito per risultare coerente e leggibile verso gli altri.",
+                "Se posso non evito la critica costruttiva per risolvere o migliorare situazioni che possano creare un danno economoico o di dispersione di tempo."
+              ]
             },
             {
               title: "Interpersonal Skills",
-              messages: [""]
-            },
-            {
-              title: "Time Management",
-              messages: [""]
+              messages: [
+                "Se il contesto lo permtte, cerco di rompere il muro della formalità per sentirmi e far sentire a proprio agio le persone che ho intorno per creare un clima rilassato e disteso.",
+                "Credo che un ambiente con pochi conformismi permetta alle persone di aprirsi offrendo una migliore comunicazione e produttività."
+              ]
             },
             {
               title: "Leadership",
-              messages: [""]
+              messages: [
+                "Sono in grado di condurre piccoli team.",
+                "Ho sempre cercato di aiutare colleghi in difficoltà offrendo l'aiuto tecnico, supporto morale e la condivisione.",
+                "Tendo a coinvolgere tutte le persone che collaborano con me ponendomi il problema di trovare il modo giusto per farle sentire valorizzate."
+              ]
             },
             {
               title: "Attention to Detail",
-              messages: [""]
+              messages: [
+                "Molte persone che mi conoscono mi definiscono osservatore, perciò l'attenzione al dettaglio la pratico continuamente.",
+                "Non riesco a convivere per troppo tempo in un ambiente troppo disorganizzato nel momento in cui percepisco che non è un'eccezione ma la normalità."
+              ]
             }
           ]
         }

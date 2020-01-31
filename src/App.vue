@@ -2,33 +2,36 @@
   <div id="app">
     <Menu />
     <Home />
-    <AboutMe />
-    <Skills />
     <News />
     <Lifetime />
+    <AboutMe />
+    <Skills />
     <Info />
+    <Footer />
   </div>
 </template>
 
 <script>
 import Menu from "./components/Menu.vue";
 import Home from "./pages/Home.vue";
+import News from "./pages/News.vue";
+import Lifetime from "./pages/Lifetime.vue";
 import AboutMe from "./pages/AboutMe.vue";
 import Skills from "./pages/Skills.vue";
-import Lifetime from "./pages/Lifetime.vue";
-import News from "./pages/News.vue";
 import Info from "./pages/Info.vue";
+import Footer from "./pages/Footer.vue";
 
 export default {
   name: "app",
   components: {
     Menu,
     Home,
+    News,
+    Lifetime,
     AboutMe,
     Skills,
-    Lifetime,
-    News,
-    Info
+    Info,
+    Footer
   }
 };
 </script>

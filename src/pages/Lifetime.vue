@@ -38,7 +38,8 @@ export default {
           button: "Myself",
           content: {
             title: "Myself",
-            subtitle: "Manager of Training for Myself"
+            subtitle: "Manager of Training for Myself",
+            messages: ["TBD"]
           }
         }
       },
@@ -49,7 +50,8 @@ export default {
           button: "Xeffe",
           content: {
             title: "Xeffe s.r.l. (Turin)",
-            subtitle: "Java/Scala Senior Developer - Team Leader"
+            subtitle: "Java/Scala Senior Developer - Team Leader",
+            messages: ["TBD"]
           }
         }
       },
@@ -60,7 +62,8 @@ export default {
           button: "Synthesis",
           content: {
             title: "Synthesis (Turin)",
-            subtitle: "Java Senior Developer"
+            subtitle: "Java Senior Developer",
+            messages: ["TBD"]
           }
         }
       },
@@ -71,7 +74,8 @@ export default {
           button: "Datasoft R.E.",
           content: {
             title: "Datasoft R.E. (Turin)",
-            subtitle: "Java Junior Developer"
+            subtitle: "Java Junior Developer",
+            messages: ["TBD"]
           }
         }
       },
@@ -109,7 +113,11 @@ export default {
           content: {
             title: "Computer Expert Graduation",
             subtitle: "I.T.I.S. E. Majoarana - Grugliasco (Turin)",
-            messages: ["bla 1", "bla 2"]
+            messages: [
+              "Qui è dove ho scritto il mio primo codice con Turbo Pascal.",
+              "In questa scuola ho imparato i veri rudimenti della programmazione.",
+              "Fare un flowchart(con carta e penna, argh), i principali algoritmi di ordinamento, strutture dati(albero, vettori, mappe, matrici), il concetto di file e di database, etc."
+            ]
           }
         }
       },

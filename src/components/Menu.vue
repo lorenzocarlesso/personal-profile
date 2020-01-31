@@ -39,9 +39,9 @@ export default {
     return {
       showNav: false,
       barItems: [
+        { title: "News", anchor: "news" },
         { title: "About Me", anchor: "aboutMe" },
         { title: "Skills", anchor: "skills" },
-        { title: "News", anchor: "news" },
         { title: "Lifetime", anchor: "lifetime" },
         { title: "Info", anchor: "info" }
       ]
