@@ -4,7 +4,7 @@ import BaseModal from './components/BaseModal.vue'
 import BaseBox from './components/BaseBox.vue'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faInfoCircle, faSchool, faBaby, faBuilding, faDrum, faFutbol, faHeart, faPauseCircle } from '@fortawesome/free-solid-svg-icons'
+import { faInfoCircle, faSchool, faBaby, faBuilding, faDrum, faFutbol, faHeart, faPauseCircle, faGamepad } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 import {
@@ -12,7 +12,7 @@ import {
   faHtml5
 } from "@fortawesome/free-brands-svg-icons";
 
-library.add(faInfoCircle, faSchool, faBaby, faBuilding, faDrum, faFutbol, faHeart, faPauseCircle, faHtml5, faLinkedin)
+library.add(faInfoCircle, faSchool, faBaby, faBuilding, faDrum, faFutbol, faHeart, faPauseCircle, faGamepad, faHtml5, faLinkedin)
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 Vue.component('BaseModal', BaseModal)

@@ -2,13 +2,9 @@
 // $primary: blue;
 
 $primary: #8aae92;
-/*
-.is-link
-.is-info
-.is-success
-.is-warning
-.is-danger
-*/
+$secondary: #8A94AE;
+$secondary-dark: #7b86a4;
+$pink-baby: #d952b7;
 
 @media screen and (min-width: 1025px) {
     .navbar-item.is-hoverable:hover .navbar-dropdown {
@@ -38,5 +34,26 @@ svg.linkedin-transition {
     &:hover {
         color: #3273dc;
     }
-  }
+}
+
+.timeline-marker.is-icon.is-pink {
+    background-color: $pink-baby !important;
+    border-color: $pink-baby !important;
+    color: white !important;
+}
+.timeline-marker.is-icon.is-secondary {
+    background-color: $secondary !important;
+    border-color: #8A94AE !important;
+    color: white !important;
+}
+.is-secondary  { 
+    background-color: $secondary;
+    color: white;
+
+    &:hover {
+        background-color: $secondary-dark;
+        color: white;
+    }
+};
+
 

@@ -1,13 +1,16 @@
 <template>
   <div class="timeline-item">
-    <div class="timeline-marker is-icon is-secondary">
+    <div
+      class="timeline-marker is-icon"
+      :class="[content.iconPrimaryColor ? 'is-primary': '', content.iconSecondaryColor ? 'is-secondary' : '']"
+    >
       <font-awesome-icon :icon="content.icon" size="2x"></font-awesome-icon>
     </div>
     <div class="timeline-content">
       <p class="heading">{{ content.head }}</p>
       <p>{{ content.text }}</p>
       <p v-if="content.modal">
-        <BaseModal :button="content.modal.button" :content="content.modal.content" />
+        <BaseModal :modal="content.modal" />
       </p>
     </div>
   </div>

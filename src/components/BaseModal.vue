@@ -3,11 +3,15 @@
     <div class="modal" v-bind:class="{'is-active':isActive}">
       <div class="modal-background"></div>
       <div class="modal-content">
-        <BaseBox :content="content" />
+        <BaseBox :content="modal.content" />
       </div>
       <button @click="close" class="modal-close"></button>
     </div>
-    <button @click="launch" class="button is-primary">{{ button }}</button>
+    <button
+      @click="launch"
+      class="button"
+      :class="[modal.primaryColor ? 'is-primary': '', modal.secondaryColor ? 'is-secondary' : '']"
+    >{{ modal.button }}</button>
   </div>
 </template>
 
@@ -20,8 +24,18 @@ export default {
     };
   },
   props: {
-    button: String,
-    content: Object
+    modal: {
+      button: String,
+      primaryColor: {
+        type: Boolean,
+        default: false
+      },
+      secondaryColor: {
+        type: Boolean,
+        default: false
+      },
+      content: Object
+    }
   },
   methods: {
     launch() {

@@ -6,10 +6,8 @@
       <div class="columns">
         <div class="column">
           <h6 class="title is-6">Training</h6>
-          <p>I've worked in IT from more than 15 years but I never have made my personal web page. For me this thing sounded bad.</p>
           <p>
-            Inoltre ero interessato a sperimentare con qualche nuova tecnologia di FE.
-            Ma studiare senza un po' di pratica, nel mio caso, non funziona molto. Per consolidare serve pratica ed esercizio.
+            Ero interessato a sperimentare con qualche nuova tecnologia di FE.
             <br />So I've found good to build something useful to me and to make practice with some new technology.
           </p>
         </div>

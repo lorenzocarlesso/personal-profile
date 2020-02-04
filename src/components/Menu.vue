@@ -41,7 +41,6 @@ export default {
       barItems: [
         { title: "News", anchor: "news" },
         { title: "Lifetime", anchor: "lifetime" },
-        { title: "About Me", anchor: "aboutMe" },
         { title: "Skills", anchor: "skills" },
         { title: "Info", anchor: "info" }
       ]

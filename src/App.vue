@@ -4,7 +4,6 @@
     <Home />
     <News />
     <Lifetime />
-    <AboutMe />
     <Skills />
     <Info />
     <Footer />
@@ -16,7 +15,6 @@ import Menu from "./components/Menu.vue";
 import Home from "./pages/Home.vue";
 import News from "./pages/News.vue";
 import Lifetime from "./pages/Lifetime.vue";
-import AboutMe from "./pages/AboutMe.vue";
 import Skills from "./pages/Skills.vue";
 import Info from "./pages/Info.vue";
 import Footer from "./pages/Footer.vue";
@@ -28,7 +26,6 @@ export default {
     Home,
     News,
     Lifetime,
-    AboutMe,
     Skills,
     Info,
     Footer
