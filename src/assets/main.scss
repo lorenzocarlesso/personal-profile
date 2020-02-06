@@ -5,6 +5,8 @@ $primary: #8aae92;
 $secondary: #8A94AE;
 $secondary-dark: #7b86a4;
 $pink-baby: #d952b7;
+$footer-background-color: #c2d5cf;
+$footer-padding: 1.5rem 3rem 5rem;
 
 @media screen and (min-width: 1025px) {
     .navbar-item.is-hoverable:hover .navbar-dropdown {
@@ -36,15 +38,40 @@ svg.linkedin-transition {
     }
 }
 
-.timeline-marker.is-icon.is-pink {
-    background-color: $pink-baby !important;
-    border-color: $pink-baby !important;
-    color: white !important;
+.technologies-alignment {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    border-bottom: 1px solid #aaa; 
 }
-.timeline-marker.is-icon.is-secondary {
-    background-color: $secondary !important;
-    border-color: #8A94AE !important;
-    color: white !important;
+
+.footer-logo {
+    padding: 0px 5px 0px 5px;
+}
+
+.timeline{
+    .timeline-item {
+        .timeline-marker{
+            &.is-icon {
+                width: 35px;
+                height: 35px;
+                &.is-secondary {
+                    background-color: $secondary !important;
+                    border-color: #8A94AE !important;
+                    color: white !important;
+                }
+                &.is-pink-baby {
+                    background-color: $pink-baby !important;
+                    border-color: $pink-baby !important;
+                    color: white !important;
+                }
+                > * {
+                    font-size: 1.2rem !important;
+
+                }
+            }
+        }
+    }
 }
 .is-secondary  { 
     background-color: $secondary;

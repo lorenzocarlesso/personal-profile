@@ -54,36 +54,43 @@ export default {
             {
               title: "Java",
               messages: [
-                "I've used Java for 15 years. I started with J2EE 1.4."
+                "I've used Java for 15 years. I started with J2EE 1.4.",
+                "It's impossible know the whole java world because it became a universe."
               ]
             },
             {
               title: "Scala",
               messages: [
-                "I've started to use Scala four years ago. I'm studying it to improve my confidence with it."
+                "I've started to use Scala four years ago.",
+                "I'm studying it to improve my confidence with it."
               ]
             },
             {
               title: "Javascript",
               messages: [
-                "I've written Javascript code. but I am not a Javascript ninja. I am studying ES6 to upgrade my confidence and level."
+                "I've written Javascript code. I am not a Javascript ninja but I like use it.",
+                "I am studying ES6 to upgrade my confidence and level."
+              ]
+            },
+            {
+              title: "HTML5 - CSS3",
+              messages: [
+                "Actually I'm not a web designer or a UX but I know how these technologies work.",
+                "I've started to use SASS"
               ]
             },
             {
               title: "Web Frameworks",
               messages: [
-                "I've started to study Vue.js.",
-                "I used Play Framework, Servlet with JSP/JSTL, Struts."
+                "I used Play Framework, Servlet with JSP/JSTL, Struts.",
+                "I've started to study Vue.js."
               ]
             },
             {
-              title: "HTML5",
-              messages: ["It's imposbile know all, but I know how use it."]
-            },
-            {
-              title: "CSS3",
+              title: "Other",
               messages: [
-                "Same knowledge like HTML. In my last experience I've used Bulma CSS framework."
+                "I used many others frameworks, tool, libraries, IDE. I list someone that are more trendy today:",
+                "Spring Framework, Maven, Git, IntelliJ, VSCode."
               ]
             }
           ]
@@ -95,7 +102,8 @@ export default {
               title: "Computer programming and coding",
               messages: [
                 "Ho utilizzato linguaggi di vario tipo, partendo da PHP, ASP per arrivare a Javascript, Java e Scala.",
-                "Non sono rimasto fermo ad un solo paradigma di programmazione, anche se quello ad oggetti è quello su cui ho lavorato di più."
+                "Non sono rimasto fermo ad un solo paradigma di programmazione, anche se quello ad oggetti è quello su cui ho lavorato di più.",
+                "Di fronte alle problematiche d'implementazione cerco di sfruttare i design pattern ed applicare i design concepts di modularizzazione, astrazione e maintainability."
               ]
             },
             {
@@ -109,8 +117,8 @@ export default {
               title: "Software design",
               messages: [
                 "Ho utilizzato il modello MVC come principale modello di riferimento architetturale.",
-                "Di fronte alle problematiche d'implementazione cerco di sfruttare i design pattern ed applicare i design concepts di modularizzazione, astrazione e maintainability.",
-                "Attualmente sto scoprendo le potenzialità dei sistemi reattivi legati ad architetture a microservizi."
+                "Attualmente sto scoprendo le potenzialità dei sistemi reattivi legati ad architetture a microservizi.",
+                "DDD, modules, etc..."
               ]
             }
           ]

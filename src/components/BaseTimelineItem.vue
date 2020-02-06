@@ -2,7 +2,7 @@
   <div class="timeline-item">
     <div
       class="timeline-marker is-icon"
-      :class="[content.iconPrimaryColor ? 'is-primary': '', content.iconSecondaryColor ? 'is-secondary' : '']"
+      :class="[content.iconPrimaryColor ? 'is-primary': '', content.iconSecondaryColor ? 'is-secondary' : '', content.iconPinkBaby ? 'is-pink-baby' : '']"
     >
       <font-awesome-icon :icon="content.icon" size="2x"></font-awesome-icon>
     </div>
