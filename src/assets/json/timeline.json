@@ -96,7 +96,7 @@
         ],
         "iconPrimaryColor": true,
         "modal": {
-            "button": "Dynamic Sites Course",
+            "button": "Dynamic Sites",
             "primaryColor": true,
             "content": {
                 "title": "Course for building dynamic sites",
@@ -234,7 +234,7 @@
         ],
         "iconPrimaryColor": true,
         "modal": {
-            "button": "Commodore 64",
+            "button": "C=64",
             "primaryColor": true,
             "content": {
                 "title": "Commodore 64",
