@@ -1,6 +1,6 @@
 [
     {
-        "title": "TECHNOLOGIES",
+        "title": "Technology",
         "isActive": true,
         "skills": [
             {
@@ -48,7 +48,7 @@
         ]
     },
     {
-        "title": "SOFTWARE ENGINERING",
+        "title": "Software Engineering",
         "skills": [
             {
                 "title": "Computer programming and coding",
@@ -76,7 +76,7 @@
         ]
     },
     {
-        "title": "SOFT SKILLS",
+        "title": "Soft Skill",
         "skills": [
             {
                 "title": "Communication",
