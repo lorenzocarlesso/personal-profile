@@ -57,7 +57,7 @@ export default {
       city: "Turin",
       country: "Italy",
       shortDescription:
-        "Specialized in web projects. I am open to new job opportunities.",
+        "Specialized in web projects. I am open to new job opportunities",
       quotes: [
         {
           mention: "Festìna lente",
@@ -69,11 +69,11 @@ export default {
           author: "Don Marquis"
         },
         {
-          mention: "You have to die a few times before you can really live.",
+          mention: "You have to die a few times before you can really live",
           author: "Charles Bukowski"
         },
         {
-          mention: "Faber est suae quisque fortunae.",
+          mention: "Faber est suae quisque fortunae",
           author: "(maybe) Sallustio"
         }
       ]

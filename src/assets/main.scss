@@ -19,6 +19,7 @@ $footer-padding: 1.5rem 3rem 5rem;
 
 @import "~bulma/bulma";
 @import '~bulma-timeline';
+@import '~@creativebulma/bulma-collapsible';
 
 @media (max-width: 1024px) {
 	.desktop {
@@ -83,4 +84,28 @@ svg.linkedin-transition {
     }
 };
 
+article {
+    &.message.skill {
+        margin-bottom: 0.5rem;
+        .message-header {
+            background-color: $primary;
+            border-radius: 10px 10px 0 0;
+            padding: 0.5em 1em;
+            font-weight: 400;
+            a {
+                &:not(.button) {            
+                    font-weight: 700;
+                    color: currentColor;
+                    text-decoration: none;
+                }
+            }
+        }
+        .message-body{
+            .message-body-content {
+                padding: 0.75em 1em;
+                background-color: $footer-background-color;
+            }
+        }
+    }
+}
 

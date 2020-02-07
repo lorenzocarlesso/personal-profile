@@ -6,7 +6,7 @@
         <div class="column is-4 is-offset-2">
           <h6 class="title is-6">Why this site?</h6>
           <p>My intention is to give a non standard perspective about me.</p>
-          <p>Today, we use standard CV and LinkedIn profile to show us.</p>
+          <p>Today, we use standard CV and LinkedIn profile.</p>
           <p>I believe a friendly profile could be useful to break formal walls.</p>
         </div>
         <div class="column is-4">

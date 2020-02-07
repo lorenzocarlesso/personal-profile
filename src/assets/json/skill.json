@@ -20,7 +20,7 @@
             {
                 "title": "Javascript",
                 "messages": [
-                    "I've written Javascript code. I am not a Javascript ninja but I like use it.",
+                    "I've written Javascript code. I like use it. but I am not a Javascript ninja.",
                     "I am studying ES6 to upgrade my confidence and level."
                 ]
             },
@@ -51,7 +51,7 @@
         "title": "Software Engineering",
         "skills": [
             {
-                "title": "Computer programming and coding",
+                "title": "Programming and coding",
                 "messages": [
                     "Ho utilizzato linguaggi di vario tipo, partendo da PHP, ASP per arrivare a Javascript, Java e Scala.",
                     "Non sono rimasto fermo ad un solo paradigma di programmazione, anche se quello ad oggetti è quello su cui ho lavorato di più.",
@@ -59,7 +59,7 @@
                 ]
             },
             {
-                "title": "Software development process",
+                "title": "Development process",
                 "messages": [
                     "Ho iniziato a lavorare con il tipico processo Waterfall.",
                     "In seguito ho avuto modo di fare esperienze con la  metodologia di sviluppo Agile nelle forme di Kanban e Scrum."
@@ -70,7 +70,7 @@
                 "messages": [
                     "Ho utilizzato il modello MVC come principale modello di riferimento architetturale.",
                     "Attualmente sto scoprendo le potenzialità dei sistemi reattivi legati ad architetture a microservizi.",
-                    "DDD, modules, etc..."
+                    "Ho avuto occasione di fare esperienza su progetti che sfruttavano i concetti chiave del Domain Driven Design."
                 ]
             }
         ]
