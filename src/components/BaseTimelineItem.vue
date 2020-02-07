@@ -2,7 +2,7 @@
   <div class="timeline-item">
     <div
       class="timeline-marker is-icon"
-      :class="[content.iconPrimaryColor ? 'is-primary': '', content.iconSecondaryColor ? 'is-secondary' : '', content.iconPinkBaby ? 'is-pink-baby' : '']"
+      :class="[content.iconColor ? content.iconColor : 'is-primary']"
     >
       <font-awesome-icon :icon="content.icon" size="2x"></font-awesome-icon>
     </div>
@@ -23,6 +23,9 @@ export default {
       head: {
         type: String,
         required: true
+      },
+      iconColor: {
+        type: String
       },
       text: String,
       icon: [Object, Array, String],

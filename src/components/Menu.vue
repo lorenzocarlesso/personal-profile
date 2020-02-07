@@ -25,7 +25,7 @@
             v-for="barItem in barItems"
             class="navbar-item"
             :href="`#${barItem.anchor}`"
-            @click="closeNavbar"
+            @click="openCloseNavbar"
           >{{ barItem.title }}</a>
         </div>
       </div>
@@ -50,13 +50,6 @@ export default {
     // bulma not manage the burger button
     openCloseNavbar() {
       this.showNav = !this.showNav;
-    },
-    // mobile: fix to close the menu button. I doesn't work really well. The menu closes but when you try to reopen the menu you need to tap twice.
-    closeNavbar() {
-      var burger = document.getElementById("navbar-burger");
-      var menu = document.getElementById("siteNavbar");
-      burger.classList.remove("is-active");
-      menu.classList.remove("is-active");
     }
   }
 };

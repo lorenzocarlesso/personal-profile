@@ -1,11 +1,10 @@
 {
-    "useForMyself": {
+    "pauseForMyself": {
         "head": "September 2019 - Today",
         "icon": [
             "fa",
             "pause-circle"
         ],
-        "iconPrimaryColor": true,
         "modal": {
             "button": "Myself",
             "primaryColor": true,
@@ -28,7 +27,7 @@
             "fa",
             "building"
         ],
-        "iconSecondaryColor": true,
+        "iconColor": "is-secondary",
         "modal": {
             "button": "Xeffe",
             "secondaryColor": true,
@@ -50,7 +49,7 @@
             "fa",
             "building"
         ],
-        "iconSecondaryColor": true,
+        "iconColor": "is-secondary",
         "modal": {
             "button": "Synthesis",
             "secondaryColor": true,
@@ -71,7 +70,7 @@
             "fa",
             "building"
         ],
-        "iconSecondaryColor": true,
+        "iconColor": "is-secondary",
         "modal": {
             "button": "Datasoft R.E.",
             "secondaryColor": true,
@@ -94,7 +93,6 @@
             "fa",
             "school"
         ],
-        "iconPrimaryColor": true,
         "modal": {
             "button": "Dynamic Sites",
             "primaryColor": true,
@@ -116,7 +114,7 @@
             "fa",
             "building"
         ],
-        "iconSecondaryColor": true,
+        "iconColor": "is-secondary",
         "modal": {
             "button": "All Stamp",
             "secondaryColor": true,
@@ -136,7 +134,7 @@
             "fa",
             "baby"
         ],
-        "iconPinkBaby": true,
+        "iconColor": "is-pink-baby",
         "text": "My second daughter is born"
     },
     "firstDaughter": {
@@ -145,7 +143,7 @@
             "fa",
             "baby"
         ],
-        "iconPinkBaby": true,
+        "iconColor": "is-pink-baby",
         "text": "My first daughter is born"
     },
     "meetAlice": {
@@ -154,7 +152,6 @@
             "fa",
             "heart"
         ],
-        "iconPrimaryColor": true,
         "text": "I met my wife Alice"
     },
     "youth": {
@@ -163,7 +160,6 @@
             "fa",
             "child"
         ],
-        "iconPrimaryColor": true,
         "modal": {
             "button": "Youth",
             "primaryColor": true,
@@ -184,7 +180,6 @@
             "fa",
             "school"
         ],
-        "iconPrimaryColor": true,
         "modal": {
             "button": "High School",
             "primaryColor": true,
@@ -205,7 +200,6 @@
             "fa",
             "drum"
         ],
-        "iconPrimaryColor": true,
         "text": "I started to play drum"
     },
     "playFootball": {
@@ -214,7 +208,6 @@
             "fa",
             "futbol"
         ],
-        "iconPrimaryColor": true,
         "text": "I started to play football"
     },
     "born": {
@@ -223,7 +216,7 @@
             "fa",
             "baby"
         ],
-        "iconPinkBaby": true,
+        "iconColor": "is-pink-baby",
         "text": "When I was born"
     },
     "commodore64": {
@@ -232,7 +225,6 @@
             "fa",
             "gamepad"
         ],
-        "iconPrimaryColor": true,
         "modal": {
             "button": "C=64",
             "primaryColor": true,
