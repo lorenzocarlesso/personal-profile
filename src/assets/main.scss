@@ -1,12 +1,14 @@
 // put here bulma customizations
 // $primary: blue;
 
-$primary: #8aae92;
-$secondary: #8A94AE;
-$secondary-dark: #7b86a4;
-$pink-baby: #d952b7;
-$footer-background-color: #c2d5cf;
+$primary: #3c8d2f;
+$secondary: #a33642;
+$secondary-dark: #8e111f;
+$pink-baby: #e273c6;
+$footer-background-color: #ffffff;
 $footer-padding: 1.5rem 3rem 5rem;
+$box-background-color: $footer-background-color;
+$background: #deeeda;
 
 @media screen and (min-width: 1025px) {
     .navbar-item.is-hoverable:hover .navbar-dropdown {
@@ -29,11 +31,12 @@ $footer-padding: 1.5rem 3rem 5rem;
 
 html {
     scroll-behavior: smooth;
+    background-color: $background;
 }
 
 svg.linkedin-transition {
     transition: color 0.5s ease-out;
-    color: #a7bfe6;
+    color: #dbe3f0;
     &:hover {
         color: #3273dc;
     }
@@ -58,13 +61,18 @@ svg.linkedin-transition {
                 height: 35px;
                 &.is-secondary {
                     background-color: $secondary !important;
-                    border-color: #8A94AE !important;
+                    border-color: $secondary !important;
                     color: white !important;
                 }
                 &.is-pink-baby {
                     background-color: $pink-baby !important;
                     border-color: $pink-baby !important;
                     color: white !important;
+                }
+                &.is-love {
+                    background-color: white !important;
+                    border-color: red !important;
+                    color: red !important;
                 }
                 > * {
                     font-size: 1.2rem !important;
@@ -83,12 +91,35 @@ svg.linkedin-transition {
         color: white;
     }
 };
-
+.modal-card-head {
+    &.is-primary {
+        background-color: $primary;
+        color: white;
+        > * {
+            background-color: $primary;
+            color: white;
+        }
+        &:hover {
+            background-color: $primary;
+            color: white;
+        }
+    }
+    &.is-secondary {
+        > * {
+            background-color: $secondary;
+            color: white;
+        }
+        &:hover {
+            background-color: $secondary;
+            color: white;
+        }
+    }
+}
 article {
     &.message.skill {
         margin-bottom: 0.5rem;
         .message-header {
-            background-color: $primary;
+            background-color: $secondary;
             border-radius: 10px 10px 0 0;
             padding: 0.5em 1em;
             font-weight: 400;

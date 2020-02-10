@@ -1,5 +1,5 @@
 <template>
-  <div class="timeline-item">
+  <div class="timeline-item is-primary">
     <div
       class="timeline-marker is-icon"
       :class="[content.iconColor ? content.iconColor : 'is-primary']"

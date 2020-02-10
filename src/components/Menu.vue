@@ -3,7 +3,13 @@
     <div class="container">
       <div class="navbar-brand">
         <a class="navbar-item" href="#home">Lorenzo Carlesso</a>
-
+        <a
+          class="navbar-item"
+          href="http://linkedin.com/in/lorenzo-carlesso-85441a3b"
+          target="_blank"
+        >
+          <font-awesome-icon class="linkedin-transition" :icon="['fab', 'linkedin']" size="2x"></font-awesome-icon>
+        </a>
         <a
           id="navbar-burger"
           role="button"

@@ -7,7 +7,7 @@
         ],
         "modal": {
             "button": "Myself",
-            "primaryColor": true,
+            "color": "is-secondary",
             "content": {
                 "title": "Myself",
                 "subtitle": "Manager of Training for Myself",
@@ -30,7 +30,7 @@
         "iconColor": "is-secondary",
         "modal": {
             "button": "Xeffe",
-            "secondaryColor": true,
+            "color": "is-secondary",
             "content": {
                 "title": "Xeffe s.r.l. (Turin)",
                 "subtitle": "Java/Scala Senior Developer - Team Leader",
@@ -52,7 +52,7 @@
         "iconColor": "is-secondary",
         "modal": {
             "button": "Synthesis",
-            "secondaryColor": true,
+            "color": "is-secondary",
             "content": {
                 "title": "Synthesis (Turin)",
                 "subtitle": "Java Senior Developer",
@@ -73,7 +73,7 @@
         "iconColor": "is-secondary",
         "modal": {
             "button": "Datasoft R.E.",
-            "secondaryColor": true,
+            "color": "is-secondary",
             "content": {
                 "title": "Datasoft R.E. (Turin)",
                 "subtitle": "Java Junior Developer",
@@ -95,9 +95,8 @@
         ],
         "modal": {
             "button": "Dynamic Sites",
-            "primaryColor": true,
             "content": {
-                "title": "Course for building dynamic sites",
+                "title": "Dynamic Sites Course",
                 "subtitle": "ASP - PHP - JAVA - Microsoft Access",
                 "messages": [
                     "Passati un po' di anni e con l'inizio della diffusione dei primi modem nelle case, iniziai a riscoprire interesse per la programmazione",
@@ -117,7 +116,7 @@
         "iconColor": "is-secondary",
         "modal": {
             "button": "All Stamp",
-            "secondaryColor": true,
+            "color": "is-secondary",
             "content": {
                 "title": "All Stamp s.r.l. (Turin)",
                 "subtitle": "Technical Designer",
@@ -152,6 +151,7 @@
             "fa",
             "heart"
         ],
+        "iconColor": "is-love",
         "text": "I met my wife Alice"
     },
     "youth": {
@@ -162,7 +162,6 @@
         ],
         "modal": {
             "button": "Youth",
-            "primaryColor": true,
             "content": {
                 "title": "Youth",
                 "subtitle": "",

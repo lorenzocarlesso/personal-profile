@@ -15,18 +15,10 @@
                   <h1 class="title">{{ name }}</h1>
                   <h6 class="subtitle is-italic has-text-weight-normal">{{ profession }}</h6>
                   <p>{{ shortDescription }}</p>
+                  <p>I am open to new job opportunities.</p>
                   <p>
                     I currently live in
                     <b>{{ city }} ({{ country }})</b>
-                  </p>
-                  <p>
-                    <a href="http://linkedin.com/in/lorenzo-carlesso-85441a3b" target="_blank">
-                      <font-awesome-icon
-                        class="linkedin-transition"
-                        :icon="['fab', 'linkedin']"
-                        size="2x"
-                      ></font-awesome-icon>
-                    </a>
                   </p>
                 </div>
               </div>
@@ -34,12 +26,12 @@
           </div>
         </div>
       </div>
-      <div class="section is-medium">
+      <div class="section">
         <div class="columns has-text-centered">
           <div v-for="quote in quotes" class="column">
             <div class="container">
-              <h2 class="subtitle is-italic">" {{ quote.mention }} "</h2>
-              <h6 class>{{ quote.author }}</h6>
+              <q class="is-size-6">{{ quote.mention }}</q>
+              <h6 class="is-italic">{{ quote.author }}</h6>
             </div>
           </div>
         </div>
@@ -56,26 +48,25 @@ export default {
       profession: "Senior Software Developer",
       city: "Turin",
       country: "Italy",
-      shortDescription:
-        "Specialized in web projects. I am open to new job opportunities",
+      shortDescription: "Specialized in web projects.",
       quotes: [
         {
           mention: "Festìna lente",
           author: "Augusto"
         },
         {
+          mention: "You have to die a few times before you can really live",
+          author: "Charles Bukowski"
+        } /*,
+        {
           mention:
             "When a man tells you that he got rich through hard work, ask him: 'Whose?",
           author: "Don Marquis"
         },
         {
-          mention: "You have to die a few times before you can really live",
-          author: "Charles Bukowski"
-        },
-        {
           mention: "Faber est suae quisque fortunae",
           author: "(maybe) Sallustio"
-        }
+        }*/
       ]
     };
   }
