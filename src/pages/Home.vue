@@ -27,8 +27,8 @@
         </div>
       </div>
       <div class="section">
-        <div class="columns has-text-centered">
-          <div v-for="quote in quotes" class="column">
+        <div class="columns is-centered has-text-centered">
+          <div v-for="quote in quotes" class="column is-3">
             <div class="container">
               <q class="is-size-6">{{ quote.mention }}</q>
               <h6 class="is-italic">{{ quote.author }}</h6>
@@ -51,12 +51,12 @@ export default {
       shortDescription: "Specialized in web projects.",
       quotes: [
         {
-          mention: "Festìna lente",
-          author: "Augusto"
-        },
-        {
           mention: "You have to die a few times before you can really live",
           author: "Charles Bukowski"
+        },
+        {
+          mention: "Festìna lente",
+          author: "Augusto"
         } /*,
         {
           mention:
