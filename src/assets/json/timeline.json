@@ -5,6 +5,7 @@
             "fa",
             "pause-circle"
         ],
+        "iconColor": "is-secondary",
         "modal": {
             "button": "Myself",
             "color": "is-secondary",
