@@ -1,10 +1,12 @@
 {
-  "name": "bulma-vue-lab",
+  "name": "personal-profile",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://lorenzocarlesso.github.io/",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build --config webpack.prod.js",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@creativebulma/bulma-collapsible": "^1.0.4",
@@ -16,6 +18,7 @@
     "bulma": "^0.8.0",
     "bulma-timeline": "^3.0.4",
     "core-js": "^3.4.4",
+    "gh-pages": "^2.2.0",
     "vue": "^2.6.10"
   },
   "devDependencies": {

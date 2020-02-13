@@ -7,7 +7,7 @@
             <article class="media">
               <div class="media-left desktop">
                 <figure class="image is-128x128">
-                  <img src="../assets/images/logos/vue.png" alt="Image" />
+                  <img src="../assets/images/Simpsonized.jpg" alt="Image" />
                 </figure>
               </div>
               <div class="media-content">
