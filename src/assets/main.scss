@@ -5,10 +5,12 @@ $primary: #3c8d2f;
 $secondary: #a33642;
 $secondary-dark: #8e111f;
 $pink-baby: #e273c6;
+$light-green: #deeeda;
 $footer-background-color: #ffffff;
 $footer-padding: 1.5rem 3rem 5rem;
 $box-background-color: $footer-background-color;
-$background: #deeeda;
+$background: $light-green;
+$navbar-background-color: $light-green;
 
 @media screen and (min-width: 1025px) {
     .navbar-item.is-hoverable:hover .navbar-dropdown {

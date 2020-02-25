@@ -12,14 +12,11 @@
               </div>
               <div class="media-content">
                 <div class="content">
-                  <h1 class="title">{{ name }}</h1>
-                  <h6 class="subtitle is-italic has-text-weight-normal">{{ profession }}</h6>
-                  <p>{{ shortDescription }}</p>
-                  <p>I am open to new job opportunities.</p>
-                  <p>
-                    I currently live in
-                    <b>{{ city }} ({{ country }})</b>
-                  </p>
+                  <h1 class="title">{{ general.name }}</h1>
+                  <h6 class="subtitle is-italic has-text-weight-normal">{{ general.profession }}</h6>
+                  <p>{{ general.shortDescription }}</p>
+                  <p v-html="general.longDescription"></p>
+                  <p v-html="general.live"></p>
                 </div>
               </div>
             </article>
@@ -28,7 +25,7 @@
       </div>
       <div class="section">
         <div class="columns is-centered has-text-centered">
-          <div v-for="quote in quotes" class="column is-3">
+          <div v-for="quote in general.quotes" class="column is-3">
             <div class="container">
               <q class="is-size-6">{{ quote.mention }}</q>
               <h6 class="is-italic">{{ quote.author }}</h6>
@@ -41,33 +38,12 @@
 </template>
 
 <script>
+import generalJson from "../assets/json/general.json";
+
 export default {
   data() {
     return {
-      name: "Lorenzo Carlesso",
-      profession: "Senior Software Developer",
-      city: "Turin",
-      country: "Italy",
-      shortDescription: "Specialized in web projects.",
-      quotes: [
-        {
-          mention: "You have to die a few times before you can really live",
-          author: "Charles Bukowski"
-        },
-        {
-          mention: "Festìna lente",
-          author: "Augusto"
-        } /*,
-        {
-          mention:
-            "When a man tells you that he got rich through hard work, ask him: 'Whose?",
-          author: "Don Marquis"
-        },
-        {
-          mention: "Faber est suae quisque fortunae",
-          author: "(maybe) Sallustio"
-        }*/
-      ]
+      general: generalJson
     };
   }
 };

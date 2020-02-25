@@ -1,22 +1,25 @@
 <template>
   <section id="news" class="section">
-    <div class="container content has-text-justified">
+    <div class="container has-text-justified">
       <h1 class="title has-text-centered">News</h1>
-
-      <h4 class="title">2020</h4>
-      <p>Sto valutando molto le tecnologie: Java 8 e successive versioni, Scala, Akka, tecnologie web (Javascript ES6, HTML5, CSS3, Vue.js, Bulma), architetture a microservizi.</p>
-      <p>L'entusiasmo, la voglia d'imparare e mettermi in gioco non mi mancano. La programmazione e le tecnologie mi continuano ad affascinare.</p>
-      <p>
-        Sto cercando opportunità legate ad applicazioni realtime, gestione dei flussi,
-        servizi b2b non troppo vicini ai database ma più d'infrastruttura per analisi, gestione, esposizione e monitoraggio dati.
-      </p>
-      <p>Anche esperienze su progetti web medio piccoli non mi dispiacerebbero.</p>
+      <div class="content" v-for="(item, index) in news" :key="`news_${index}`">
+        <h3 class="title">{{item.title}}</h3>
+        <p v-for="paragraph in item.content">{{paragraph}}</p>
+      </div>
     </div>
   </section>
 </template>
 
 <script>
-export default {};
+import newsJson from "../assets/json/news.json";
+
+export default {
+  data() {
+    return {
+      news: newsJson
+    };
+  }
+};
 </script>
 
 <style>
