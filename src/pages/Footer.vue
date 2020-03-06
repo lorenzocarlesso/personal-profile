@@ -29,7 +29,7 @@
         <p>
           © {{ now.getFullYear() }}
           -
-          <strong>{{ general.name }}</strong>
+          <strong>{{ $t('name ') }}</strong>
         </p>
       </div>
     </div>
@@ -37,13 +37,10 @@
 </template>
 
 <script>
-import generalJson from "../assets/json/general.json";
-
 export default {
   data() {
     return {
-      now: new Date(),
-      general: generalJson
+      now: new Date()
     };
   }
 };

@@ -2,7 +2,7 @@
   <section id="news" class="section">
     <div class="container has-text-justified">
       <h1 class="title has-text-centered">News</h1>
-      <div class="content" v-for="(item, index) in news" :key="`news_${index}`">
+      <div class="content" v-for="(item, index) in $t('news')" :key="`news_${index}`">
         <h3 class="title">{{item.title}}</h3>
         <p v-for="paragraph in item.content">{{paragraph}}</p>
       </div>
@@ -11,13 +11,9 @@
 </template>
 
 <script>
-import newsJson from "../assets/json/news.json";
-
 export default {
   data() {
-    return {
-      news: newsJson
-    };
+    return {};
   }
 };
 </script>

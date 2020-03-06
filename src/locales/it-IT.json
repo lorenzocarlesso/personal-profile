@@ -13,5 +13,22 @@
             "mention": "Festìna lente",
             "author": "Augusto"
         }
+    ],
+    "news": [
+        {
+            "title": "2020",
+            "content": [
+                "In continua formazione su: Java 8 (e successive versioni), Scala, Akka, Spark, Javascript ES6, HTML5, CSS3, web frameworks(Vue.js, Bulma) e architetture a microservizi.",
+                "Sto cercando opportunità legate ad applicazioni realtime, gestione dei flussi, servizi b2b non troppo vicini ai database ma più d'infrastruttura per analisi, gestione, esposizione e monitoraggio dati.",
+                "Anche esperienze su progetti web medio piccoli non mi dispiacerebbero."
+            ]
+        },
+        {
+            "title": "Settembre 2019",
+            "content": [
+                "Ho ricominciato a studiare Inglese per migliorarmi nel parlato e nello scritto.",
+                "Il mio obiettivo è la certificazione Cambridge B2, ma al momento sto studiando per ottenere la B1 a Maggio 2020."
+            ]
+        }
     ]
 }
