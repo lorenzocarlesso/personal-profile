@@ -1,0 +1,17 @@
+{
+    "name": "Lorenzo Carlesso",
+    "profession": "Sviluppatore Software Senior",
+    "live": "Attualmente vivo a <b>Torino</b>",
+    "shortDescription": "Specializzato in progetti web.",
+    "longDescription": "Programmazione e tecnologie continuano ad affascinarmi.<br />Sempre pronto per imparare, e mettermi in gioco.<br />L'entusiasmo non mi manca.",
+    "quotes": [
+        {
+            "mention": "Devi morire alcune volte prima di poter vivere veramente",
+            "author": "Charles Bukowski"
+        },
+        {
+            "mention": "Festìna lente",
+            "author": "Augusto"
+        }
+    ]
+}
