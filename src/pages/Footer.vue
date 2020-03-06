@@ -29,7 +29,7 @@
         <p>
           © {{ now.getFullYear() }}
           -
-          <strong>Lorenzo Carlesso</strong>
+          <strong>{{ general.name }}</strong>
         </p>
       </div>
     </div>
@@ -37,10 +37,13 @@
 </template>
 
 <script>
+import generalJson from "../assets/json/general.json";
+
 export default {
   data() {
     return {
-      now: new Date()
+      now: new Date(),
+      general: generalJson
     };
   }
 };
