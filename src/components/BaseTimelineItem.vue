@@ -2,15 +2,15 @@
   <div class="timeline-item is-primary">
     <div
       class="timeline-marker is-icon"
-      :class="[content.iconColor ? content.iconColor : 'is-primary']"
+      :class="[properties.iconColor ? properties.iconColor : 'is-primary']"
     >
-      <font-awesome-icon :icon="content.icon" size="2x"></font-awesome-icon>
+      <font-awesome-icon :icon="properties.icon" size="2x"></font-awesome-icon>
     </div>
     <div class="timeline-content">
       <p class="heading">{{ content.head }}</p>
       <p>{{ content.text }}</p>
       <p v-if="content.modal">
-        <BaseModal :modal="content.modal" />
+        <BaseModal :properties="properties.modal" :content="content.modal" />
       </p>
     </div>
   </div>
@@ -19,16 +19,19 @@
 <script>
 export default {
   props: {
+    properties: {
+      iconColor: {
+        type: String
+      },
+      icon: [Object, Array, String],
+      modal: Object
+    },
     content: {
       head: {
         type: String,
         required: true
       },
-      iconColor: {
-        type: String
-      },
       text: String,
-      icon: [Object, Array, String],
       modal: Object
     }
   }

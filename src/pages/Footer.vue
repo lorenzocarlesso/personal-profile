@@ -29,7 +29,7 @@
         <p>
           © {{ now.getFullYear() }}
           -
-          <strong>{{ $t('name ') }}</strong>
+          <strong>{{ $t('name') }}</strong>
         </p>
       </div>
     </div>

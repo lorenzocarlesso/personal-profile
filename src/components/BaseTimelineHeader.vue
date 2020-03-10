@@ -1,18 +1,23 @@
 <template>
   <header class="timeline-header">
-    <span class="tag is-primary" v-bind:class="{ 'is-medium': content.isMedium }">{{ content.text }}</span>
+    <span
+      class="tag is-primary"
+      v-bind:class="{ 'is-medium': properties.isMedium }"
+    >{{ content.text }}</span>
   </header>
 </template>
 
 <script>
 export default {
   props: {
-    content: {
-      text: String,
+    properties: {
       isMedium: {
         type: Boolean,
         default: false
       }
+    },
+    content: {
+      text: String
     }
   }
 };

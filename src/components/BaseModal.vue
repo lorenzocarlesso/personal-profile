@@ -3,21 +3,24 @@
     <div class="modal has-text-left" v-bind:class="{'is-active':isActive}">
       <div class="modal-background"></div>
       <div class="modal-card">
-        <header class="modal-card-head" :class="[modal.color ? modal.color : 'is-primary']">
-          <p class="modal-card-title">{{ modal.content.title }}</p>
+        <header
+          class="modal-card-head"
+          :class="[properties.color ? properties.color : 'is-primary']"
+        >
+          <p class="modal-card-title">{{ content.title }}</p>
           <button @click="close" class="delete" aria-label="close"></button>
         </header>
         <section class="modal-card-body content">
-          <p class="subtitle">{{ modal.content.subtitle }}</p>
-          <p v-for="message in modal.content.messages">{{ message }}</p>
+          <p class="subtitle">{{ content.subtitle }}</p>
+          <p v-for="message in content.messages">{{ message }}</p>
         </section>
       </div>
     </div>
     <button
       @click="launch"
       class="button"
-      :class="[modal.color ? modal.color : 'is-primary']"
-    >{{ modal.button }}</button>
+      :class="[properties.color ? properties.color : 'is-primary']"
+    >{{ content.button }}</button>
   </div>
   <!--
   <div>
@@ -46,12 +49,16 @@ export default {
     };
   },
   props: {
-    modal: {
-      button: String,
+    properties: {
       color: {
         type: String
-      },
-      content: Object
+      }
+    },
+    content: {
+      button: String,
+      title: String,
+      subtitle: String,
+      messages: Array
     }
   },
   methods: {
