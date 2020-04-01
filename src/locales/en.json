@@ -18,31 +18,31 @@
         {
             "title": "2020",
             "content": [
-                "In continua formazione su: Java 8 (e successive versioni), Scala, Akka, Spark, Javascript ES6, HTML5, CSS3, web frameworks(Vue.js, Bulma) e architetture a microservizi.",
-                "Sto cercando opportunità legate ad applicazioni realtime, gestione dei flussi, servizi b2b non troppo vicini ai database ma più d'infrastruttura per analisi, gestione, esposizione e monitoraggio dati.",
-                "Anche esperienze su progetti web medio piccoli non mi dispiacerebbero."
+                "I am always eager to learn new things about: Java 8 (and more recent versions), Scala, Akka, Spark, Javascript ES6, HTML5, CSS3, web frameworks(Vue.js, Bulma) and microservices architectures.",
+                "I'm looking for new job opportunities related to realtime applications, streaming management, b2b services away from database but close to infrastracture for analysis, management, data presentation and monitoring.",
+                "I am also available to gain experience in small or medium web projects."
             ]
         },
         {
             "title": "September 2019",
             "content": [
-                "I've restarted to study English to get stronger with speaking and writing.",
-                "My challenge is the Cambridge B2 certification, but at the moment I'm studying to get the B1 in May 2020."
+                "I've gone back to studying English to improve my speaking and writing skills.",
+                "My next challenge is the Cambridge B2 certification, but at the moment I'm studying to achieve B1 level in May 2020."
             ]
         }
     ],
     "timeline": {
         "pauseForMyself": {
-            "head": "September 2019 - Today",
+            "head": "September 2019 - April 2020",
             "modal": {
                 "button": "Myself",
                 "title": "Myself",
                 "subtitle": "Manager of Training for Myself",
                 "messages": [
-                    "Con l'esperienza maturata e la continua diversificazione delle figure professionali del settore IT, ho sentito di dover prendere una pausa dal lavoro per fare alcune riflessioni e scelte professionali.",
-                    "Ho voluto consolidare alcune conoscenze per poter ripartire con un nuovo entusiasmo verso opportunità che il mondo del lavoro potrebbe offrirmi per dar spazio alla mia crescita professionale.",
-                    "Ho fatto e sto seguento diversi corsi online per consolidare ed approfondire tecnologie, metodologie di sviluppo ed architetture software.",
-                    "Cerco di realizzare alcuni piccoli progetti con l'idea di realizzare un mio portfolio."
+                    "With my experience and due to ongoing changes in professional roles in the IT field, I'm taking a break to reflect on my career.",
+                    "I want to consolidate previous knowledge before taking on new job opportunities with a enthusiasm.",
+                    "I did many online courses to study in more detail the following: technologies, software development methodologies and software architectures.",
+                    "I'm working on build several small projects in order to create my own portfolio."
                 ]
             }
         },
@@ -53,10 +53,11 @@
                 "title": "Xeffe s.r.l. (Turin)",
                 "subtitle": "Java/Scala Senior Developer - Team Leader",
                 "messages": [
-                    "In quest'azienda ho avuto modo di fare molta esperienza nell'approccio allo sviluppo software DDD.",
-                    "Ho potuto utilizzare per la prima volta Scala, ma purtroppo solo come supporto a Java, perciò non ho potuto consolidare una profonda esperienza.",
-                    "Alcuni altri strumenti e tecnologie utilizzati sono stati: Git, Gitlab, Maven, Play Framework, Spring, HighCart, REST, Json, ecc.",
-                    "E' stata un'esperienza importante dal punto di vista umano. Qui ho conosciuto molti colleghi con cui ho avuto grandissimo piacere collaborare."
+                    "-- Restart here --",
+                    "Here, I had the opportunity to do much experience with the DDD software development.",
+                    "I could use Scala language in a job context for the first time. Unfortunately I used it together Java, to support it, so I had not the possibility to have a deep experience with Scala to consolidate a strong experience.",
+                    "I used other tools and techonolgies: Git, Gitlab, Maven, Play Framework, Spring, HighCart, REST, Json, ecc.",
+                    "Work in this company for me has been a great experience also by the human view. Here I found a great pleasure to collaborate with many colleagues."
                 ]
             }
         },
@@ -67,9 +68,9 @@
                 "title": "Synthesis (Turin)",
                 "subtitle": "Java Senior Developer",
                 "messages": [
-                    "Qui ho avuto la possibilità di crescere professionalmente sia come programmatore che come lavoratore.",
-                    "Ho avuto modo di mettermi alla prova seguendo progetti in maniera indipendente nell'intero ciclo di realizzazione del software.",
-                    "L'azienda mi ha dato possibilità d'interfacciarmi direttamente con il cliente."
+                    "In this company, I had the opportunity to grow professionally both as developer and as IT worker.",
+                    "I got to test myself following some projects inpendently on the whole software development cycle.",
+                    "The company gave me the opportunity to interact directly with the customer."
                 ]
             }
         },
@@ -80,11 +81,11 @@
                 "title": "Datasoft R.E. (Turin)",
                 "subtitle": "Java Junior Developer",
                 "messages": [
-                    "Nel 2002 tornai a lavorare in un'azienda informatica.",
-                    "Lo stack tecnologico iniziale era: Oracle, Java(Swing, EJB2), Struts, HTML, Javascript, CSS.",
-                    "Con il passare degli anni vidi altre tecnologie come Spring Framework ed Adobe Flex.",
-                    "Feci molta esperienza di programmazione, e divenni quello che sono ancora ora: un FullStack developer.",
-                    "Qui iniziai a fare anche le prime rasferte presso il cliente."
+                    "On 2002 I went back to work. I started in this IT company.",
+                    "Here I started with this technology stack: Oracle, Java(Swing, EJB2), Struts, HTML, Javascript, CSS.",
+                    "With the passing years, I learned others technologies: Spring Framework ed Adobe Flex.",
+                    "Con il passare degli anni vidi altre tecnologie come Spring Framework, Adobe Flex, CVS, ecc.",
+                    "I did much programming experience and I became what I am still now: a FullStack developer."
                 ]
             }
         },
@@ -95,10 +96,10 @@
                 "title": "Dynamic Sites Course",
                 "subtitle": "ASP - PHP - JAVA - Microsoft Access",
                 "messages": [
-                    "Passati un po' di anni e con l'inizio della diffusione dei primi modem nelle case, iniziai a riscoprire interesse per la programmazione",
-                    "Iniziai a fare qualche pagina HTML (anche se non è programmare) così per diletto.",
-                    "Dopo poco lasciai il lavoro per fare un corso di un anno su ASP, PHP e Java. Agli inizi del 2000 si parlava di siti dinamici, non ancora di web application.",
-                    "Perciò ottenni la qualifica come programmatore di siti dinamici (i primi fullstack developer)."
+                    "After few years, first HTML sites, home and business Internet connection started to diffuse. I started to rediscover interest for web technologies and programming.",
+                    "I tried to make some HTML page just for pleasure and fun.",
+                    "Soon after I left my job to start a one year course on ASP, PHP and Java. At the beginning of 2000 was common to say dinamyc site, not web applications yet.",
+                    "Therefore I got the qualification of dynamic site programmer (the first FullStack developers)."
                 ]
             }
         },
@@ -109,8 +110,8 @@
                 "title": "All Stamp s.r.l. (Turin)",
                 "subtitle": "Technical Designer",
                 "messages": [
-                    "La programmazione mi aveva affascinato ma non convinto così tanto da continuare nello studio o nel lavoro.",
-                    "Così finita la scuola iniziai subito a lavorare come disegnatore tecnico meccanico."
+                    "Programming fascinated me but It not convinced me a lot for to continue with the study or work.",
+                    "So when I finished my high school I started straight to work like technical designer in a family business specializing on sheet metal blanking."
                 ]
             }
         },
@@ -133,9 +134,9 @@
                 "title": "Youth",
                 "subtitle": "",
                 "messages": [
-                    "Erano anni molto spensierati e sereni, dove il computer non era centrale nella mia vita ma un giocattolo come gli altri anche se ha assorbito parecchie ore di gioco.",
-                    "Abitavo in periferia, con la possbilità di essere molto a contatto con la natura e passare tempo con gli amici.",
-                    "Così crebbi dando spazio alle mie passioni: calcio, musica, vacanze, avventure con gli amici."
+                    "They were carefreee and pacefull years, where computers are not the central interest of my life but a toy like others though It consumed many hours of play.",
+                    "I lived on suburbs of Turin. I had the possibility to have contact with nature and to pass much time with my friends.",
+                    "So, I grew up giving space to my passions: football, music, holidays, adventures with my friends."
                 ]
             }
         },
@@ -146,9 +147,9 @@
                 "title": "Computer Expert Graduation",
                 "subtitle": "I.T.I.S. E. Majoarana - Grugliasco (Turin)",
                 "messages": [
-                    "Qui è dove ho scritto il mio primo codice con Turbo Pascal.",
-                    "In questa scuola ho imparato i veri rudimenti della programmazione.",
-                    "Fare un flowchart(con carta e penna, argh), i principali algoritmi di ordinamento, strutture dati(albero, vettori, mappe, matrici), il concetto di file e di database, etc."
+                    "Here is where I wrote my first code in Turbo Pascal.",
+                    "In this school I learned the real rudiments and the basics about programming:",
+                    "make a flowchart (with paper and pen, argh), alghoritms (searching, sorting, binary trees, balanced trees, ecc.), data structures (trees, vectors, maps, matrix), file and databases concepts, etc."
                 ]
             }
         },
@@ -171,9 +172,9 @@
                 "title": "Commodore 64",
                 "subtitle": "Natale 1985",
                 "messages": [
-                    "Io e i miei fratelli ricevemmo per Natale il Commodore 64. Fu li che scoprimmo il mondo della programmazione ...ehm no, no, quella è una storia di molti altri programmatori. Noi scoprimmo semplicemente il mondo delle console per giocare.",
-                    "Mentre i computer continuavano ad evolvere, io e i miei fratelli continuavamo ad evolvere le nostre abilità nei videogiochi. Oppure a stampare qualche banner, copertina di MC o DVD con la stampante ad aghi o ad usare i primi fogli eletttonici (Lotus 1-2-3).",
-                    "Dato che in quegli anni era normale usare la console di MS-DOS, imparai con naturalezza i primi comandi base di un sistema operativo: cd, dir, copy *.* , zip, unzip."
+                    "For Christmas, my brothers and I received the legendary Commodore 64. It was in that moment where we discovered the fantastic programming world ...ehm no, no. That is the story of other many programmers. We simply knew the console world to play games.",
+                    "Meanwhile computers continue to evolve, my brothers and I continued to evolve our abilities in videogames. Or We used print some banner, MC/DVD cover, with dot matrix printer or to use the first worksheet software (Lotus 1-2-3).",
+                    "I that years was normal use the conosle to give oder to computer. So I learned naturally the first basic OS commands with MS-DOS: cd, dir, copy *.*, zip, unzip."
                 ]
             }
         },
@@ -241,24 +242,24 @@
                 {
                     "title": "Programming and coding",
                     "messages": [
-                        "Ho utilizzato linguaggi di vario tipo, partendo da PHP, ASP per arrivare a Javascript, Java e Scala.",
-                        "Non sono rimasto fermo ad un solo paradigma di programmazione, anche se quello ad oggetti è quello su cui ho lavorato di più.",
-                        "Di fronte alle problematiche d'implementazione cerco di sfruttare i design pattern ed applicare i design concepts di modularizzazione, astrazione e maintainability."
+                        "I used different programming languages, starting from PHP, ASP arriving to Javascript, Java and Scala.",
+                        "I did not be stuck to object-oriented programming paradigm, even if that's what I used the most, but I started to school with procedural programming and today I am deeping the functional programming.",
+                        "I use design pattern and modularization, abstraction and mantianabiliy deign concepts to solve my daily implementation issues."
                     ]
                 },
                 {
                     "title": "Development process",
                     "messages": [
-                        "Ho iniziato a lavorare con il tipico processo Waterfall.",
-                        "In seguito ho avuto modo di fare esperienze con la  metodologia di sviluppo Agile nelle forme di Kanban e Scrum."
+                        "I started to work with a typical waterfall development process.",
+                        "Later I had the opportunity to do experience with the Agile metodology in the forms of Kanban and Scrum."
                     ]
                 },
                 {
                     "title": "Software design",
                     "messages": [
-                        "Ho utilizzato il modello MVC come principale modello di riferimento architetturale.",
-                        "Attualmente sto scoprendo le potenzialità dei sistemi reattivi legati ad architetture a microservizi.",
-                        "Ho avuto occasione di fare esperienza su progetti che sfruttavano i concetti chiave del Domain Driven Design."
+                        "I used the MVC model as main architectural reference model. ",
+                        "At the moment I'm discovering the potential of reactive systems linked to micreoservices architectures.",
+                        "I had the opportunity to do experience on projects that exploited the ley concepts of Domain Driven Design."
                     ]
                 }
             ]
@@ -269,68 +270,82 @@
                 {
                     "title": "Communication",
                     "messages": [
-                        "Provo piacere nel condividere e ascoltare le persone che collaborano con me.",
-                        "Cerco di essere sintetico ed esplicito nella comunicazione per non dare spazio a incomprensioni."
+                        "I feel plesaure to sharing and listening with people that collaborate with me.",
+                        "I try to be synthetic and efficient in communication to be clear and avoid misunderstanding."
                     ]
                 },
                 {
                     "title": "Teamwork",
                     "messages": [
-                        "Non sono fatto per lavorare da solo. Ho bisogno di condividere il bene ed il male del lavoro assumendo un atteggiamento propositivo, finalizzato al successo delle attività.",
-                        "Ho lavorato quasi sempre con team di poche persone."
+                        "I do not like to work alone. I need to share the good and the bad of the job assuming a positive attitude, aimed at the success of the activity.",
+                        "I work almost always in teams of few people."
                     ]
                 },
                 {
                     "title": "Adaptability",
                     "messages": [
-                        "Le mie esperienze lavorative erano spesso disorganizzate e di conseguenza era importante gestire le attività ed il tempo a disposizione.",
-                        "Lavorando in aziende medio piccole era quasi la normalità dover assumere ruoli non sempre di solo sviluppatore."
+                        "I improved my time and activityies management skills because I have done experiences on projects not so well organized and critical situations.",
+                        "With my last experiences in small and medium companies, it was almost normal to take on roles not always of developer."
                     ]
                 },
                 {
                     "title": "Problem-Solving",
                     "messages": [
-                        "Credo che la soluzione migliore per affrontare e risolvere un problema sia la condivisione. Questo offre l'opportunità di avere più spunti per trovare la soluzione efficace.",
-                        "Cerco di adottare un metodo universale per aumentare la propria indipendenza di fronte ai problemi: continuare a studiare. Ritengo sia il modo milgiore per contenere il lato oscuro di ognuno di noi: l'ignoranza. "
+                        "I believe the better way to solve a problem is sharing. This offers the opportunity to have more ideas to find the effective solution and and helps to strengthen relationships between colleagues.",
+                        "I try to adopt a standard method to increase one's independence in the face of problems: never stop studying. I think It's the best way to contain the dark side of each us: ignorance."
                     ]
                 },
                 {
                     "title": "Creativity",
                     "messages": [
-                        "Non sono particolarmente creativo a livello artistico ma cerco di esserlo nel ragionamento e nell'osservazione per trovare sempre uno schema logico alle situazioni che devo elaborare.",
-                        "Faccio uso di droghe per avere spunti creativi da altre dimensioni. Scherzo. Questo succedeva per alcuni musicisti negli anni sessanta...a no, succede ancora oggi."
+                        "I am not particulary creative on an artistic level but I try to be creative in reasoning and observation to always find a logical scheme for the situations that I have to elaborate.",
+                        "I use drugs to get creative ideas from other dimensions. I am joking. this happened for som musicians in the sixties...a no, It still happens today."
                     ]
                 },
                 {
                     "title": "Work Ethic",
                     "messages": [
-                        "Cerco di mantenere sempre un atteggiamento professionale in ogni ambito per risultare coerente e leggibile verso gli altri.",
-                        "Se posso non evito la critica costruttiva per risolvere o migliorare situazioni che possano creare un danno economoico o di dispersione di tempo."
+                        "I try to always maintain a professional attitude in every area to be consistent and transparent towards others.",
+                        "If I can I do not avoid a costructive criticism to solve or improve situations where they can create ecnomic damage or waste of time."
                     ]
                 },
                 {
                     "title": "Interpersonal Skills",
                     "messages": [
-                        "Se il contesto lo permette, cerco di rompere il muro della formalità per sentirmi e far sentire a proprio agio le persone che ho intorno per creare un clima rilassato e disteso.",
-                        "Credo che un ambiente con pochi conformismi permetta alle persone di aprirsi offrendo una migliore comunicazione e produttività."
+                        "If the context allows, I try to break the wall of formality to feel and make people around me feel at ease to create a relaxed atmosphere.",
+                        "I believe that an environment with few conformisms allows people to open up by offering better communication and productivity."
                     ]
                 },
                 {
                     "title": "Leadership",
                     "messages": [
-                        "Sono in grado di condurre piccoli team.",
-                        "Ho sempre cercato di aiutare colleghi in difficoltà offrendo l'aiuto tecnico, supporto morale e la condivisione.",
-                        "Tendo a coinvolgere tutte le persone che collaborano con me ponendomi il problema di trovare il modo giusto per farle sentire valorizzate."
+                        "In a right context and right conditions, I am able to lead small teams.",
+                        "I always tried to help my colleague in difficulty. I offeres them technical help, moral and sharing support.",
+                        "I tend to involve all the people who collaborate with me, asking me the problem of finding the right way to make them feel valued."
                     ]
                 },
                 {
                     "title": "Attention to Detail",
                     "messages": [
-                        "Molte persone che mi conoscono mi definiscono osservatore, perciò l'attenzione al dettaglio la pratico continuamente.",
-                        "Non riesco a convivere per troppo tempo in un ambiente troppo disorganizzato nel momento in cui percepisco che non è un'eccezione ma la normalità."
+                        "Many people that know me define me observer, I am attention on detail continuously",
+                        "I can't live much time in a disorganized context when I understand disorganization is the normality and not an exception."
                     ]
                 }
             ]
         }
-    ]
+    ],
+    "info": {
+        "whyThisSite": {
+            "title": "Why this site?",
+            "description": "My intention is to give a friendly perspective about me."
+        },
+        "training": {
+            "title": "Training",
+            "description": "I've found good to build something useful to me and to make practice with some new technology."
+        },
+        "warning": {
+            "title": "Warning",
+            "description": "I forgot: I am not a web designer but I've tried to expose my contents in a pleasent way."
+        }
+    }
 }
